@@ -1,0 +1,24 @@
+			CONTOH TIPEDATA PHP
+
+<?php
+
+//string
+$a = "penjumblahan : ";
+
+//integer
+$b = 3;
+
+//char
+$c = '!';
+
+//double
+$d = 2.8;
+
+print($a.$b.$c.$d);
+
+?>
+
+OUTPUT :
+
+penjumblahan : 3!2.8
+

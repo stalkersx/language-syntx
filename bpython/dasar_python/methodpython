@@ -1,0 +1,15 @@
+			  METHODS PYTHON
+
+1. METHODS DEF
+
+	#tanpa parameter
+	def variabel() :
+	   #method/output
+
+	#dengan parameter
+	def variabel(parameter1, parameter2) :
+	   #method/output
+
+	#panggil
+	variabel()
+	variabel(nilaiParameter1, nilaiparameter2)

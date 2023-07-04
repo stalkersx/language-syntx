@@ -1,0 +1,35 @@
+			CONTOH METHODS KOTLIN
+
+//void
+fun methods1(){
+  println("void");
+}
+
+//return
+fun methods2(): Int {
+  println("return");
+  return 0;
+}
+
+//parameter bisa void/return
+fun methods3(a: String, b: String): Int {
+  println(a + b);
+  return 0;
+}
+
+//main
+fun main(){
+  println("main");
+  //panggil
+  methods1();
+  methods2();
+  methods3("para","meter");
+}
+
+OUTPUT :
+
+main
+void
+return
+parameter
+

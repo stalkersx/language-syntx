@@ -1,0 +1,74 @@
+			   TIPEDATA JAVA
+
+1. TIPE DATA INTEGER
+
+	//pembuatan
+	int variabel = angka;
+
+	//panggil integer
+	variabel
+
+2. TIPE DATA STRING
+
+	//pembuatan
+	String variabel = "string";
+
+	//panggil string
+	variabel
+
+3. TIPE DATA DOUBLE
+
+	//pembuatan
+	double variabel = angkaKoma;
+
+
+	//panggil double
+	variabel
+
+4. TIPE DATA FLOAT
+
+	//pembuatan
+	float variabel = angkaKomaTambahf;
+
+	//panggil float
+	variabel
+
+5. TIPE DATA LONG
+
+	//pembuatan
+	long variabel = angkaTambahL;
+
+	//panggil float
+	variabel
+
+6. TIPE DATA SHORT
+
+	//pembuatan
+	short variabel = angka;
+
+	//panggil short
+	variabel
+
+7. TIPE DATA BYTE
+
+	//pembuatan
+	byte variabel = angka;
+
+	//pembuatan
+	variabel
+
+8. TIPE DATA BOOLEAN
+
+	//pembuatan
+	boolean variabel = true/false;
+
+	//panggil boolean
+	variabel
+
+9. TIPE DATA CHARAKTER
+
+	//pembuatan
+	char variabel = 'huruf/simbol';
+
+	//panggil charakter
+	variabel

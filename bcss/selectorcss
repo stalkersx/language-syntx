@@ -1,0 +1,81 @@
+			    SELECTOR CSS
+
+1. SELECTOR TAG
+
+	//pembuatan
+	p {
+	    color: blue;
+	  }
+
+	//panggil ke html
+	<p> paragraf </p>
+
+penjelasan :
+- semua isi dari tag p akan memiliki warna biru
+
+2. SELECTOR CLASS
+
+	//pembuatan
+	.pink {
+		color: green;
+		background: red;
+		padding: 5px;
+	      {
+
+	//panggil ke html
+	<p> selemat datang di <b class=".pink"> indomaret </b>
+
+penjelasan :
+- .pink ialah nama class
+- tanda {} ialah pembuka dan penutup block selector
+- p ialah tag paragraf
+- b ialah nama tag untuk menampung attribut class
+
+3. SELECTOR ID
+
+- selector yang digunakan untuk 1 elemen saja
+
+	//pembuatan
+	#header {
+		  background: teal;
+		  color: white;
+		  height: 100px;
+		  padding: 50px;
+		}
+
+	//panggil ke html
+	<header id="header">
+		<h1>Selamat Datang di Website Saya</h1>
+	</header>
+
+penjelasan :
+- desain hanya 1 elemen header saja
+
+4. SELECTOR ATTRIBUTS
+
+	//pembuatan
+	input[type=text] {
+	    background: none;
+	    color: cyan;
+	    padding: 10px;
+	    border: 1px solid cyan;
+	}
+
+	//panggil ke html
+	<input type="text" placeholder="ketik sesuatu..." />
+
+penjelasan :
+- semua elemen input dengan type text
+
+5. SELECTOR UNIVERSAL
+
+- selector yang digunakan untuk menyeleksi semua elemen
+
+	//css file
+	* {
+	    border: 1px solid grey;
+	}
+
+penjelasan :
+- semua elemen html akan mempunyai garis solid dengan ukuran 1px dan berwarn grey
+

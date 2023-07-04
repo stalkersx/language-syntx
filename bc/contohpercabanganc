@@ -1,0 +1,24 @@
+			CONTOH PERCABANGAN C
+
+#include <stdio.h>
+
+void main(){
+
+  //if/else if/else
+  int a = 3;
+  if (a == 3){
+   puts("if");
+  }
+  else if (a != 3){
+   puts("else if");
+  }
+  else {
+   puts("else");
+  }
+
+}
+
+OUTPUT :
+
+if
+

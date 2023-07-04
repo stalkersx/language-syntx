@@ -1,0 +1,27 @@
+			CONTOH TIPEDATA C++
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  //string
+  char s[] = "pengurangan : ";
+
+  //integer
+  int a = 3;
+
+  //char
+  char b = '-';
+
+  //double
+  double c = 4.5;
+
+  cout << s << a << b << c;
+
+  return 0;
+}
+
+OUTPUT :
+
+pengurangan : 3-4.5

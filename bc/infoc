@@ -1,0 +1,30 @@
+			  INFORMASI C
+
+1. NAMA PACKAGE LINUX
+
+- build-essential
+- gcc
+
+2. FORMAT FILE
+
+- namaFile.c
+
+3. FILE SCRIPTS
+
+- pembuka scripts bahasa c
+  #include <stdio.h>
+
+- comments scripts bahasa c
+  //ini comments 1 baris
+  /*ini comments
+    lebih dari 1 baris
+  */
+- membutuhkan method main
+- bisa ya/bisa tidak membuat object class
+- method harus dibuat diatas method main
+- membutuhkan tanda ; pada coding
+
+4. EXECTION SCRIPTS
+
+- gcc formatFile -o namaFilebaru
+- ./namaFileBaru

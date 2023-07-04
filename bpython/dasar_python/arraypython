@@ -1,0 +1,79 @@
+			ARRAY PYTHON
+
+methods				array
+varArray.prepend(item)		menambah item dari depan
+varArray.append(item)		menambah item dari belakang
+varArray.insert(index, item)	menambah item dari index tertentu
+varArray.remove(item)		hapus item dengan nilai tipedata
+del var[index]			hapus item dengan index
+variabel[index]=item		ubah item dalam array
+variabel[mulai_idx:akhir_idx]	simpan sementara item dengan index(idx)
+len(variabel)			total isi array
+
+1. ARRAY 1 DIMENSI
+
+	#array kosong 1 dimensi
+	variabel=[]
+
+	#pembuatan
+	variabel=[item,item]
+
+	#panggil item
+	variabel[index]
+
+2. ARRAY 2 DIMENSI
+
+	#array kosong 2 dimensi
+	variabel=[][]
+
+	#pembuatan
+	variabel=[[item,item], [item,item,item]]
+
+	#panggil item
+	variabel[baris][index]
+
+3. ARRAY 3 DIMENSI
+
+	#array kosong 3 dimensi
+	variabel=[[[]]]
+
+	#pembuatan
+	variabel=[[[item,item],[item],[item]]]
+
+	#panggil item
+	variabel[baris][kolom/index][banyakdata]
+
+4. ARRAY TUPLE
+
+	#tuple normal
+	var=(item,item,item)
+
+	#multi tuple
+	variabel1="item1","item2","item3"
+	variabel2="item1","item2",item3"
+	variabel3=(variabel1,variabel2)
+
+	#panggil array tuple
+	variabel[index]
+
+5. ARRAY STRING (GET CHAR FROM TEXT STRING)
+
+	# STRING
+	variabel="nilaistring"
+
+	# panggil mulai dari 0
+	variabel=[:index]
+
+	# panggil mulai dari index
+	variabel=[awal_index:akhir_index]
+
+6. ARRAY DIST
+
+	# buat dist
+        variabel = {"key" : "value", "key" : "value"}
+
+	# tambah dist
+	variabel["key"] = "value"
+
+	# panggil item
+	variabel["key"]

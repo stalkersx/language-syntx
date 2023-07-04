@@ -1,0 +1,13 @@
+			    OUTPUT BASH
+
+1. OUTPUT NORMAL
+
+	echo nilaiTipeData/$Variabel
+
+2. OUTPUT FORMAT
+
+	#multi
+	echo -e "nilaitipedata/%format", $variabel
+
+	#format
+	printf "%format", $variabel

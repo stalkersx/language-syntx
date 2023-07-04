@@ -1,0 +1,21 @@
+			CONTOH PERCABANGAN PHP
+
+<?php
+
+//if/else if/else
+$a = 3;
+if ($a == 3){
+  print("if");
+}
+else if ($a != 3){
+  print("else if");
+}
+else {
+  print("else");
+}
+
+?>
+
+OUTPUT :
+
+if

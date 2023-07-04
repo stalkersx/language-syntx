@@ -1,0 +1,30 @@
+			INFORMASI PHP
+
+1, NAMA PACKAGE LINUX
+
+- php
+
+3. FORMAT FILE
+
+- namaFile.php
+
+4. FILE SCRIPTS
+
+- pembuka script bahasa php
+  <?php
+- penutup scripts bahasa php
+  ?>
+- comments scripts bahasa php
+  //ini comments 1 baris
+  /*ini comments
+   lebih dari 1 baris
+  */
+- tidak membutuhkan method main
+- bisa ya/bisa tidak membuat object class
+- method harus dibuat diatas method main
+- membutuhkan tanda ; pada coding
+
+5. EXECTION SCRIPTS
+
+- php formatFile
+

@@ -1,0 +1,37 @@
+				  PYTHON
+
+# ABCD ialah variabelclass
+# buat superclass/class induk
+class A:
+  # method contruktor
+  def __init__(self, parameter1classA, parameter2classA):
+    # variabel contruktor
+    self.variabel1classA = parameter1classA
+  # method turunan contruktor
+  def variabelmethodclassA(self):
+
+# buat subclass/class turunan/class anak
+class B(A):
+  # variabel global
+  variabelglobalclassB = nilaitipedata
+
+class C(B):
+
+class D(A):
+  # gunakan self yang berarti turunan dari class A
+  def variabelmethodclassD(self):
+    # panggil method turunan contruktor class A di class D
+    # harus ada (self) dan (harus dalam method class D)
+    super().variabelmethodclassA()
+
+# subclass dapat membuat object, memanggil method
+# memanggil variabel contruktor ataupun variabelglobal dari superclass
+# buat object dari class B menggunakan contruktor class A
+object1 = variabelclassB(parameter2classA, parameter2classA)
+object1.variabel1classA
+
+# panggil variabelglobal di class B dari class C
+variabelclassC().variabelglobalclass
+
+# panggil method class A yang diturunkan ke class D
+variabelclassD().variabelmethodclassD()

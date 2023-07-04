@@ -1,0 +1,14 @@
+				PYTHON
+import os
+
+# try parameter 1 terminal
+try:
+  variabel = sys.argv[1]
+except:
+  variabel = input()
+
+# try cek import terinstall atau belum
+try:
+  import nama module
+except:
+  os.system("pip install namamodule")

@@ -1,0 +1,23 @@
+				PYTHON
+
+# enkapsulasi adalah variabel atau method hanya dapat diakses hanya dalam class
+# atau tidak dapat diakses dari luar class atau pun di class lain
+# gunakan __ untuk membuat variabel/method enkapsulasi
+class variabelclass:
+  def __init__(self):
+    self.__variabelenkapsulasi = ...
+    self.variabelbiasa
+
+  # method enkapsulasi
+  def __variabelmethodenkapsilasi(self):
+
+  # method biasa
+  def variabelmethod(self):
+
+# coba panggil variabel dan method
+# bandingkan mana yang bisa mana yang tidak bisa di akses
+obj1 = variabelclass()
+obj1.__variabelenkapsulasi # maka akan error
+obj1.variabelbiasa # normal
+obj1.__variabelmethodenkapsulasi() # error
+obj1.variabelmethod() # normal

@@ -1,0 +1,15 @@
+			    OUTPUT KOTLIN
+
+
+1. OUTPUT TANPA NEWLINE
+
+	print(method/nilaitipedata)
+
+2. OUTPUT DENGAN NEWLINE
+
+	println(method/nilaitipedata)
+
+3. OUTPUT FORMAT (1 var = 1 nilaitipedata )
+
+	val variabel = String.format("%format", nilaitipedata)
+	println(variabel)

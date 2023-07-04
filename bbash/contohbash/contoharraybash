@@ -1,0 +1,18 @@
+			CONTOH ARRAYS BASH
+
+#!/bin/bash
+
+#array kosong
+declare -a hewan
+hewan[a]="kucing"
+hewan[b]="kelinci"
+
+#array satu dimensi
+angka=(1 2 3 4)
+
+#panggil array
+echo "ada ${angka[3]} ${hewan[b]} dihutan"
+
+OUTPUT :
+
+ada 4 kelinci dihutan

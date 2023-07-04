@@ -1,0 +1,51 @@
+				PYTHON
+
+# file namamodule.py
+class variabelclass():
+  # variabel class
+  variabelclass = nilaitipedata
+
+  # contruktor
+  def __init__(self, paramenter):
+    # variabelcontruktor
+    self.variabelcontruktor = parameter
+  # method turunan contruktor
+  def methodturunan(self):
+
+# variabel global
+variabelglobal = nilaitipedata
+
+# method global
+def variabelmethodglobal():
+
+-----------------------------------------
+# file.py yang digunakan
+# import semua module (class, method, variabel)
+import namamodule
+
+# buat object contruktor dari module
+object = namamodule.variabelclass(parameter)
+
+# panggil object
+object.variabelcontruktor
+object.variabelclass
+
+# panggil object method
+object.methodturunan()
+object.methodturunan(parameter)
+
+# panggil variabel dan method global
+namamodule.methodglobal()
+namamodule.methodglobal(parameter)
+namamodule.variabelglobal
+
+# import langsung module variabel dan method global
+from module import variabelglobal # variabel
+from module import methodglobal # method
+from module import variabelclass # class
+
+# jika class yang di import buat object seperti diatas
+# panggil variabel dan method global
+variabelglobal
+methodglobal()
+methodglobal(parameter)

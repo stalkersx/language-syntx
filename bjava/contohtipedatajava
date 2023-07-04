@@ -1,0 +1,40 @@
+			CONTOH TIPEDATA JAVA
+
+public class contoh {
+  public static void main(String[]Args){
+    //string
+    String a = "kalimat";
+
+    //integer
+    int b = 2;
+
+    //double
+    double c = 1.3;
+
+    //float
+    float d = 1.2f;
+
+    //long
+    long e = 10L;
+
+    //short
+    short f = 123;
+
+    //byte
+    byte g = 5;
+
+    //boolean
+    boolean h = true;
+
+    //char
+    char i = '+';
+
+    System.out.println(a + b + c + d + f + g + h + i);
+  }
+}
+
+
+OUTPUT :
+
+kalimat21.31.21235true+
+

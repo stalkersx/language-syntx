@@ -1,0 +1,15 @@
+			CONTOH ARRAYS KOTLIN
+
+//main
+fun main(){
+
+  //arrays satu dimensi
+  var a = arrayOf("ikan","ayam","bebek","semut")
+
+  //panggil
+  println(a[3])
+}
+
+OUTPUT :
+                                                              
+semut

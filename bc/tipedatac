@@ -1,0 +1,33 @@
+			   TIPE DATA C
+
+1. CHAR
+
+	//pembuatan
+	char variabel = 'char';
+
+	//panggil
+	variabel
+
+2. INTEGER
+
+	//pembuatan
+	int variabel = angka;
+
+	//panggil
+	variabel
+
+3. DOUBLE
+
+	//pembuatan
+	double variabel = angkaKoma;
+
+	//panggil
+	variabel
+
+4. STRING
+
+	//pembuatan
+	char variabel[jumblahHuruf] = "nilaiString";
+
+	//panggil
+	variabel

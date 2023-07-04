@@ -1,0 +1,22 @@
+			CONTOH PERCABANGAN BASH
+#!/bin/bash
+
+#if/elif/else
+a=5
+if [[ $a -eq 5 ]];then echo "ini if"
+elif [[ $a -ne 5 ]];then echo "ini elif"
+else echo "else"; fi
+
+#case
+b=3
+case $b in
+1) echo "case 1";;
+2) echo "case 2";;
+3) echo "case 3";;
+*) echo "case else";;
+esac
+
+OUTPUT :
+
+ini if
+case 3

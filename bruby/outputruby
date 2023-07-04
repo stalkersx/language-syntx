@@ -1,0 +1,13 @@
+			    OUTPUT RUBY
+
+1. OUTPUT PRINT
+
+	print nilaiTipeData/Variabel
+
+2. OUTPUT PUTS
+
+	puts nilaiTipeData/variabel
+
+3. OUTPUT FORMAT
+
+	printf("format", variabel)

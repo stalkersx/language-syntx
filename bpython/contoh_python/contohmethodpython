@@ -1,0 +1,22 @@
+			CONTOH METHODS PYTHON
+
+#python
+
+#def
+def methods1() :
+  print("def")
+
+#def parameter
+def methods2(a,b) :
+  print("def parameter")
+
+#panggil
+methods1()
+methods2(2,4)
+
+OUTPUT :
+
+def
+def parameter
+
+

@@ -1,0 +1,33 @@
+			   TIPE DATA PHP
+
+1. STRING
+
+	//pembuatan
+	$variabel = "string";
+
+	//panggil string
+	$variabel
+
+2. INTEGER
+
+	//pembuatan
+	$variabel = angka;
+
+	//panggil integer
+	$variabel
+
+3. DOUBLE
+
+	//pembuatan
+	$variabel = angkaKoma;
+
+	//panggil double
+	$variabel
+
+4. CHARACTER
+
+	//pembuatan
+	$variabel = 'c';
+
+	//panggil character
+	$variabel

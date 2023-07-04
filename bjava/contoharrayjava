@@ -1,0 +1,23 @@
+			CONTOH ARRAYS JAVA
+
+
+import java.util.ArrayList;
+
+public class contoh {
+  public static void main(String[]Args){
+    //arrays kosong
+    ArrayList <Integer> a = new ArrayList<>();
+    a.add(7);
+    a.add(3);
+
+    //arrays satu dimensi
+    String b[] = {"ayam","ikan","sapi"};
+
+    System.out.println(a.get(0) + b[1]);
+  }
+}
+
+OUTPUT :
+
+7ikan
+

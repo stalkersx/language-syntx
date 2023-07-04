@@ -1,0 +1,15 @@
+			PROPERTI/VALUE CSS
+
+1. PENGAMBARAN
+
+- selector merupakan elemen dari html
+- properti merupakan aturan kode desain
+- value merupakan nilai dari properti
+	p {
+	    color: red;
+	  }
+
+penjelasan :
+- selector ialah elemen p
+- properti ialah color
+- value ialah red

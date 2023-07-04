@@ -1,0 +1,26 @@
+			 PERULANGAN KOTLIN
+
+1. PERULANGAN FOR
+
+	for (variabel in 0..10){
+	   //method/output
+	}
+
+penjelasan :
+- for ialah keywork perulangan
+- 0 ialah nilai awal
+- 10 ialah nilai akhir
+- tanda {} ialah pembuka dan penutup block
+
+2. WHILE
+
+	while ( kondisi ) {
+	   //method/output
+	   variabel++
+	}
+
+penjelasan :
+- while ialah keywork perulangan
+- (kondisi) ialah membandingkan 2 nilai
+- tanda {} ialah penutup dan pembuka block
+- variabel++ ialah jumbah tambah melakukan perulangan

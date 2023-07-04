@@ -1,0 +1,12 @@
+				  ATTRIBUT HTML
+
+
+DAFTAR ATTRIBUT HTML
+
+- penulisan attribut didalam tag pembuka
+
+	KODE				ATTRIBUT
+	lang="bahasa"			bahasa yg digunakan
+	class				menentukan nama class yang digunakan pada css
+	style				menentukan gaya css secara inline
+	id				menentukan id untuk elemen

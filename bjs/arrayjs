@@ -1,0 +1,15 @@
+			   ARRAYS JAVASCRIPTS
+
+1. ARRAYS NORMAL
+
+	//arrays 1 dimensi
+	const var = [item, item, item];
+
+	//arrays kosong
+	const var = [];
+
+	//pengisian array
+	var[index] = nilaitipedata;
+
+	//panggil
+	var[index]

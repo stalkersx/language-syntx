@@ -1,0 +1,17 @@
+				CSS
+
+1. color
+
+	VALUE		NILAI
+	red		merah
+	white		putih
+	blue		biru
+	yellow		kuning
+	green		hijau
+	black		hitam
+	grey		abu-abu
+	pink		pink
+	people		unggu
+
+contoh :
+color: red;

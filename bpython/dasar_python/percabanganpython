@@ -1,0 +1,19 @@
+			PERCABANGAN PYTHON
+
+1. PERCABANGAN IF/ELIF/ELSE
+
+	#mode 1 kondisi 1 nilai
+	if kondisi :
+	  #method/output
+	elif kondisi :
+	  #method/output
+	else :
+	  #method/output
+
+penjelasan :
+- if/elif/else ialah keywork percabangan
+- kondisi ialah membandingkan 2 nilai
+- tanda : ialah block dari if python
+- eksekusi dengan kondisi hanya bener
+
+

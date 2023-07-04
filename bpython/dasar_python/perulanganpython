@@ -1,0 +1,33 @@
+			PERULANGAN PYTHON
+
+1. PERULANGAN FOR
+
+	#for array
+	for variabel in varlistarray:
+	   #method/output
+
+	#for dengan range()
+	for variabel in range(1,10,1):
+	   #method/output
+
+	#for dengan string
+	for variabel in "string":
+	   #method/output
+
+penjelasan :
+- for ialah keywork perulangan
+- range(1,10,1) ialah 1 awal nilai, 10 batas nilai, 1 jumblah perulangan
+
+2. WHILE
+
+	while kondisi :
+	   #method/output
+	   var += jumblahTambah
+
+penjelasan :
+- while ialah keywork perulangan
+- kondisi ialah perbandingan 2 nilai
+- tanda : ialah pembuka block perulangan
+- tanda += ialah operator penugasan
+- jumblah tambah ialah angka penambahan setiap kali diulang
+

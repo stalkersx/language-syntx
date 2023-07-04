@@ -1,0 +1,17 @@
+			CONTOH METHODS JS
+
+//function
+function methods1(){
+  console.log("methods function tanpa parameter");
+}
+function methods2(a,b){
+  console.log("methods function dengan parameter");
+}
+methods1();
+methods2(1,2);
+
+OUTPUT :
+
+methods function tanpa parameter
+methods function dengan parameter
+

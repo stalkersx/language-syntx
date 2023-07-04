@@ -1,0 +1,24 @@
+			     METHODS RUBY
+
+
+1. METHODS DEF
+
+	#def tanpa parameter
+	def variabelMethods
+	   #methods/output
+	end
+
+	#panggil methods
+	variabelMethods
+
+2. METHODS PARAMETER
+
+- parameter ialah variabel yang berisi nilai tipedata
+
+	#def dengan parameter
+	def variabelMethods(Parameter1,Parameter2)
+	   #methods/output
+	end
+
+	#panggil methods
+	variabelMethods nilaiParameter1, nilaiParameter2

@@ -1,0 +1,36 @@
+			TIPE DATA RUBY
+
+1. STRING
+
+	#pembuatan
+	variabel="nilai string"
+
+	#panggil tipedata string
+	variabel
+
+2. INTEGER
+
+	#pembuatan
+	variabel=angka
+
+	#panggil tipedata integer
+	variabel
+
+3. DOUBLE
+
+	#pembuatan
+	variabel=angkaDenganKoma
+
+	#panggil tipedata double
+	variabel
+
+4. CHARACTER
+
+	#pembuatan
+	variabel='1karakter'
+
+	#panggil tipedata charakter
+	variabel
+
+
+

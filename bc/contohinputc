@@ -1,0 +1,28 @@
+			CONTOH INPUT C
+
+#include <stdio.h>
+
+void main(){
+
+  //fgets
+  char a[20];
+  printf("nama : ");
+  fgets(a, 20, stdin);
+
+  //scanf
+  int b;
+  printf("umur : ");
+  scanf("%d",&b);
+
+  printf("perkenalkan aku %s", a);
+  printf("umurku %d ", b);
+
+}
+
+OUTPUT :
+
+nama : indah
+umur : 23
+perkenalkan aku indah
+umurku 23
+

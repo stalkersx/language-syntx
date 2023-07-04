@@ -1,0 +1,7 @@
+#cek apakah isi array kosong atau tidak
+arr=(1 2 3 4)
+if [ ${arr[@]} ];then
+  echo "array ada isinya"
+else
+  echo "array kosong tidak ada isi"
+fi

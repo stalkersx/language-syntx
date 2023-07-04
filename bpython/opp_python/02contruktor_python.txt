@@ -1,0 +1,41 @@
+				  PYTHON
+
+# selalu ada parameter self pada method turunan contruktor
+# buat class contruktor
+class variabelclass:
+
+  #variabel global pada class
+  variabelglobal = nilaitipedata
+
+  # method contruktor
+  # untuk buat atau panggil variabel dalam method contruktor (self.variabel)
+  def __init__(self, parameter1, parameter2):
+    self.variabel1 = parameter1
+    self.variabel2 = parameter2
+    # panggil variabel global ke contruktor
+    variabelclass.variabelglobal = nilaitipedata
+
+  # method turunan contruktor dengan parameter
+  def variabelmethod(self):
+
+  # method turunan contruktor tanpa parameter
+  def variabelmethod(self, parameter3, parameter4):
+
+# diluar class atau diclass lain (import)
+#buat object contruktor bisa banyak
+object1 = variabelclass(nilaiparameter1, nilaiparameter2)
+
+# panggil object
+object1.variabel1
+object1.variabel2
+
+# pamggil method turunan contruktor dengan object
+object1.variabelmethod()
+object1.variabelmethod(nilaiparameter3, nilaiparameter4)
+
+# panggil method turunan contruktor tanpa object
+variabelclass.variabelmethod()
+variabelclass.variabelmethod(nilaiparameter3, nilaiparameter4)
+
+# panggil variabel global
+variabelclass.variabelglobal

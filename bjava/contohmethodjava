@@ -1,0 +1,36 @@
+			CONTOH METHODS JAVA
+
+public class contoh {
+  //methods void
+  public void methods1(){
+    System.out.println("methods void");
+  }
+
+  //method return
+  public int methods2(){
+    System.out.println("methods return");
+    return 0;
+  }
+
+  //mwthod parameter pada void/return
+  public void methods3(int a, int b){
+    System.out.println("methods parameter");
+  }
+
+  //method main
+  public static void main(String[]Args){
+    System.out.println("methods main");
+    //panggil methods
+    contoh a = new contoh(); //membuat methods
+    a.methods1();
+    a.methods2();
+    a.methods3(1,3);
+  }
+}
+
+OUTPUT :
+
+methods main
+methods void
+methods return
+methods parameter

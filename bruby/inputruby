@@ -1,0 +1,21 @@
+			    INPUT RUBY
+
+1. INPUT GETS
+
+- input untuk type string
+
+	#pembuatan
+	variabel=gets
+
+	#panggil input
+	variabel
+
+2. INPUT GETS.TO_F
+
+- input untuk type integer
+
+	#pembuatan
+	variabel=gets.to_f
+
+	#panggil input
+	variabel

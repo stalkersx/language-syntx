@@ -1,0 +1,24 @@
+			      Arrays C++
+
+1. Array satu dimensi
+
+	//array 1 dimensi
+	tipedata variabel[jumblahIndex] = {item, item, item};
+
+	//array kosong
+	tipedata variabel[jumblahIndex];
+
+	//mengisi array kosong
+	tipedata variabel[index] = item;
+
+	//panggil array
+	variabel[index];
+
+2. Arrays dua dimensi
+
+ 
+	//arrays 2 dimensi
+	tipedata variabel[umblahIndex][jumblahHuruf] = {item, item, item};
+
+	//panggil
+	variabel[index];

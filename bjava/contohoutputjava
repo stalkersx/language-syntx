@@ -1,0 +1,20 @@
+			CONTOH OUTPUT JAVA
+
+public class contoh {
+  public static void main(String[]Args){
+    //println
+    System.out.println("println");
+
+    //print
+    System.out.print("print\n");
+
+    //printf
+    System.out.printf("printf");
+  }
+}
+
+OUTPUT :
+
+println
+print
+printf

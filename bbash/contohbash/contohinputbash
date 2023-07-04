@@ -1,0 +1,17 @@
+			CONTOH INPUT BASH
+
+#!/bin/bash
+
+#input normal
+printf "nama : "
+read a
+
+#input question
+read -p "umur : " b
+
+echo -e "aku adalah $a berumur $b tahun"
+
+OUTPUT :
+nama : doni
+umur : 18
+aku adalah doni berumur 18 tahun

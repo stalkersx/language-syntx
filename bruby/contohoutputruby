@@ -1,0 +1,18 @@
+			CONTOH OUTPUT RUBY
+#!/bin/ruby
+
+#print
+print("hello ")
+
+#puts
+puts("world")
+
+#printf
+printf("doni")
+
+
+OUTPUT :
+
+hello world
+doni
+

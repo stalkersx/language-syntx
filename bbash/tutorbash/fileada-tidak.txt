@@ -1,0 +1,9 @@
+#cek file ada tidak
+if ! [ -f $1 ];then
+  echo "file tidak ada"
+else
+  echo "file ada"
+fi
+
+#cara pakai
+#$ namafile.sh file

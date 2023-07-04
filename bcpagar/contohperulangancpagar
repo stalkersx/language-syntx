@@ -1,0 +1,24 @@
+			CONTOH PERULANGAN C#
+
+using System;
+
+public class contoh {
+   public static void Main(String[]Args){
+
+        //for
+        for (int a = 0; a <= 3; a++){
+           Console.Write(a);
+        }
+
+        //while
+        int b = 1;
+        while (b <= 2){
+           Console.Write(b);
+           b++;
+        }
+   }
+}
+
+OUTPUT :
+
+012312

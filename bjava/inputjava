@@ -1,0 +1,64 @@
+			    INPUT JAVA
+
+1. INPUT SCANNER
+
+	METHOD			TIPEDATA
+	nextLong()		long
+	nextShort()		short
+	nextByte()		byte
+	nextInt()		int
+	next().charAt(0)	char
+	next()			string 1 kata
+	nextLine()		string
+	nextFloat()		float
+	nextDouble()		double
+
+	//module
+	//import java.util.Scanner;
+
+	//pembuatan
+	Scanner variabel1 = new Scanner(System.in);
+	tipedata variabel2 = variabel1.next();
+
+2. INPUT BUFFEREDREADER
+
+	METHOD			TIPEDATA
+	readLine()		string
+	read()			integer
+
+	//module
+	//import java.io.BufferedReader;
+	//import java.io.InputStreamReader;
+	//import java.lang.Exception;
+
+	//pembuatan(jgn lupa menambahkan throws Exception pada method)
+	BufferedReader variabel1 = new BufferedReader(new InputStreamReader(System.in);
+	tipedata variabel2 = variabel1.readLine();
+
+3. INPUT CONSOLE
+
+	METHOD			      TIPEDATA
+	readLine()		      String
+        Integer.parseInt(variabel)    int
+	Double.parseDouble(variabel)  double
+
+	//module
+	//import java.io.console;
+
+	//pembuatan
+	Console variabel1 = System.console();
+	tipedata variabel2 = variabel1.readLine();
+
+	//ubah nilai ke angka
+	Tipedata variabel = TipeData.parseTipedata(variabel2);
+
+4. INPUT JOPTIONPANE
+
+	//module
+	//import javax.swing.JOptionPane;
+
+	//pembuatan
+	tipedata variabel = JOptionPane.showInputDialog("tanya");
+
+	//output khusus JOptionPane
+	JOptionPane.showMessageDialog(null, nilaitipedata/variabel);

@@ -1,0 +1,15 @@
+					PYTHON
+
+1. IN
+
+	# in dalam string (hasil : True)
+	print("suka" in "aku suka kamu")
+
+2. NOT IN
+
+	# not in dalam if
+	arr = ["hello" "dunia" "code"]
+	if "tono" not in arr:
+	  arr.append("tono")
+
+	print(arr)

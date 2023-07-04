@@ -1,0 +1,131 @@
+			   METHODS JAVA
+
+
+	METHODS			AKSES
+	public			terbuka
+	private			tertutup
+	protected		terbuka hanya dalam 1 paket
+	static			panggil method tanpa membuat object class
+
+1. METHODS MAIN
+
+        public static void main(String[]Args){
+
+        }
+
+2. METHODS VOID
+
+	#tanpa parameter
+	public void var()
+	{
+
+	}
+	public static void var()
+	{
+
+	}
+	private void var()
+	{
+
+	}
+	private static void var()
+	{
+
+	}
+	protected void var()
+	{
+
+	}
+	protected static void var()
+	{
+
+	}
+
+	#dengan parameter
+	public void var1(tipedata1 var2, tipedata2 var)
+	{
+
+	}
+	public static void var1(tipedata1 var2, tipedata2 var3)
+	{
+
+	}
+	private void var1(tipedata1 var2, tipedata2 var3)
+	{
+
+	}
+	private static void var1(tipedata1 var2, tipedata2 var3)
+	{
+
+	}
+	protected void var1(tipedata1 var2, tipedata2 var3)
+	{
+
+	}
+	protected static void var1(tipedata1 var2, tipedata2 var3)
+	{
+
+	}
+
+	//membuat object
+	namaClass var = new namaClass();
+	namaClass var = new namaClass(contruktor);
+
+	//panggil method
+	var.NamaMethod(); //tanpa parameter
+	var.NamaMethod(nilaitipedata, nilaitipedata); //dengan parameter
+
+3. METHODS RETURN
+
+	#tanpa parameter
+        public tipedata1 var()
+	{
+		return nilaitipedata1;
+	}
+        public static tipedata1 var()
+	{
+		return nilaitipedata1;
+	}
+        private tipedata1 var()
+	{
+		return nilaitipedata1;
+	}
+        private static tipedata1 var()
+	{
+		return nilaitipedata1;
+	}
+        protected tipedata1 var()
+	{
+		return nilaitipedata1;
+	}
+        protected static tipedata1 var()
+	{
+		return nilaitipedata1;
+	}
+
+        #dengan parameter
+        public tipedata1 var1(tipedata2 var2, tipedata3 var3)
+	{
+		return nilaitipedata1;
+	}
+        public static tipedata1 var1(tipedata2 var2, tipedata3 var3)
+	{
+		return nilaitipedata1;
+	}
+        private tipedata1 var1(tipedata2 var2, tipedata3 var3)
+	{
+		return nilaitipedata1;
+	}
+        private static tipedata1 var1(tipedata2 var2, tipedata3 var3)
+	{
+		return nilaitipedata1;
+	}
+        protected tipedata1 var1(tipedata2 var2, tipedata3 var3)
+	{
+		return nilaitipedata1;
+	}
+        protected static tipedata1 var1(tipedata2 var2, tipedata3 var3)
+	{
+		return nilaitipedata1;
+	}
+

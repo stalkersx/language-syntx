@@ -1,0 +1,27 @@
+			CONTOH PERULANGÁN
+
+//main
+fun main(){
+
+  //for
+  for (a in 1..3){
+    println(a)
+  }
+
+  //while
+  var a = 0
+  while (a <= 3){
+    println(a)
+    a++
+  }
+}
+
+OUTPUT :
+
+1
+2
+3
+0
+1
+2
+3

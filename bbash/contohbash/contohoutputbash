@@ -1,0 +1,18 @@
+			CONTOH OUTPUT BASH
+
+#!/bin/bash
+
+#output normal
+echo "hello world"
+
+#output format
+a="hello"; b="world"
+echo -e "$a\n$b"
+printf "%s\n%s" $a $b
+
+OUTPUT :
+hello world
+hello
+world
+hello
+world

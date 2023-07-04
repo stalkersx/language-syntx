@@ -1,0 +1,17 @@
+			    METHODS PHP
+
+1. METHODS FUNCTION
+
+	//tanpa parameter
+	function variabel(){
+	   //method/output;
+	}
+
+	//dengan parameter
+	function variabel($parameter1,$parameter2){
+	   //methods/output;
+	}
+
+	//panggil method
+	variabel(); //tanpa parameter
+	variabel(nilaiparameter1, nilaiparameter2); //dengan parameter

@@ -1,0 +1,84 @@
+			    OPERATOR BASH
+
+1. OPERATOR ARITMATIKA
+
+	method		operator
+	+		penjumbalahan
+	-		pengurangan
+	*		perkalian
+	/		bagi
+	%		sisa bagi
+	var++		penambahan 1 nilai
+	var--		pengurangan 1 nilai
+
+2. OPERATOR PERBANDINGAN
+
+	method		operator
+	==		sama dengan
+	!=		tidak sama dengan
+	<		lebih kecil
+	<		lebih kecil sama dengan
+	>		lebih besar
+	>=		lebih besar sama dengan
+
+3. OPERATOR BITWISE
+
+	method		operator
+	&		and
+	&=		and dan menyimpam hasil dlm var tsb
+	|		or
+	|=		or dan menyimpan hasil dlm var tsb
+	^		xor
+	^=		xor dan menyimpan hasil dlm var tsb
+	~		untuk melengkapi nilai
+	<<		menggeser nilai biner ke kiri
+	<<=		menggeser nilai biner ke kiri dan menyimpan hasil d var tsb
+	>>		menggeser nilai biner ke kanan
+	>>=		menggeser nilai biner ke kanan dan menyimpan hasilnya divar tsb
+	<<<		meneruskan data dari kiri kanan ke input standar
+
+
+4. OPERATOR LOGIKA
+
+	method		operator
+	&&		and
+	||		or
+	!		xor/narasi
+5. OPERATOR FILE
+
+	method		operator
+	-a		penganti and operator
+	-b		cek file block khusus
+	-c		cek file char khusus
+	-d		cek hanya direktory
+	-e		cek semua jenis file
+	-f		cek hanya file
+	-g		cek flag set-grup-id disetel/tidak
+	-G		cek id grub dan pengguna yg sama
+	-h		cek tautan simbolik
+	-k		cek flag bit yg lengket
+	-L		cek tautan simbolik seperti -h
+	-n		cek nilai bukam kosong/nol
+	-N		cek file modifikasi/tidak
+	-nt		cek mna file yg lebih baru
+	-o		penganti or operator
+	-O		mengecek pemilikan file
+	-ot		cek mna file lebih tua
+	-p		cek file berupa pipa/bukan
+	-r		cek permission read/baca
+	-s		cek file berukuran lebih dari nol/tidak
+	-S		cek file soket/bukam
+	-t		cek file terkait terminal/tidak
+	-u		cek flag set-user-id disetel/tidak
+	-w		cek permission write/tulis
+	-x		cek permission exection/eksekusi
+	-z		cek nilai kosong/nol
+
+6. OPERATOR FORMAT
+
+	method		operator
+	\n		newline
+	\t		tab
+	%d		integer
+	%s		string
+	%c		char

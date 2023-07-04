@@ -1,0 +1,9 @@
+			    ARRAY RUBY
+
+1. ARRAY SATU DIMENSI
+
+	#membuat array
+	variabel=[item, item, item]
+
+	#panggil variabel array
+	variabel[index]

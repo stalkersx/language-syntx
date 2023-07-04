@@ -1,0 +1,32 @@
+			INFORMASI KOTLIN
+
+1. PROSES INSTALL
+
+- sudo apt install zip
+- curl -s https://get.sdkman.io | bash
+- source “/home/mintku/.sdkman/bin/sdkman-init.sh”
+- sdk install kotlin
+- kotlinc-jvm
+
+2. FORMAT FILE
+
+- namaFile.kt
+
+3. FILE SCRIPTS
+
+- tidak ada pembuka scripts kotlin
+- comments scripts bahasa kotlin
+  //ini comments 1 baris
+  /* ini comments
+   lebih dari 1 baris
+  */
+- membutuhkan method main
+- bisa ya/bisa tidak membuat object class
+- method harus dibuat diatas method main
+- tidak membutuhkan tanda ; pada coding
+
+4. EXECTION SCRIPTS
+
+- kotlinc formatFile -include-runtime -d namaFileBaru.jar
+- kotlin namaFileBaru.jar
+- java -jar namaFileBaru.jar

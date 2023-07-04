@@ -1,0 +1,38 @@
+			    ARRAY BASH
+
+1. ARRAY SATU DIMENSI
+
+	#membuat array
+	variabel=(item item)
+
+	#panggil array dengan index
+	${variabel[index]}
+
+	#panggil semua isi array
+	${variabel[@]}
+
+	#cek semua total isi array
+	${#variabel[@]}
+
+	#panggil index array
+	${!variabel[@]}
+
+2. ARRAY KOSONG/DECLARE
+
+	#membuat array declare/kosong
+	declare -a variabel
+
+	#mengisi nilai array
+	variabel[index]=item
+
+	#tambah array
+	variabel+=nilaitipedata
+
+	#hapus array
+	unset variabel
+
+	#hapus dengan index
+	unset variabel[index]
+
+	#panggil array declare/kosong
+	${variabel[index]}

@@ -1,0 +1,19 @@
+			CONTOH INPUT C++
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  char a[12];
+  cout << "nama panggil : ";
+  cin >> a;
+  cout << a;
+
+  return 0;
+}
+
+OUTPUT :
+
+nama panggil : emi
+emi

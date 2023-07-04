@@ -1,0 +1,21 @@
+			CONTOH INPUT RUBY
+
+#!/bin/ruby
+
+#gets
+print("nama : ")
+a=gets
+
+#gets.to_f
+print("umur : ")
+b=gets.to_f
+
+printf("aku %sberumur %d",a,b)
+
+OUTPUT :
+
+nama : doni
+umur : 17
+aku doni
+berumur 17
+

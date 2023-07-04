@@ -1,0 +1,22 @@
+			CONTOH OUTPUT KOTLIN
+
+//main
+fun main(){
+
+  //print
+  print("print\n")
+
+  //println
+  println("println")
+
+  //format
+  val a = String.format("%s", "format")
+  print(a)
+}
+
+OUTPUT :
+
+print
+println
+format
+

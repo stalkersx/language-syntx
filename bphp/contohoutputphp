@@ -1,0 +1,22 @@
+			CONTOH OUTPUT PHP
+
+<?php
+
+//echo
+echo "hello ";
+echo("world\n");
+
+//print
+print "good ";
+print("looking\n");
+
+//printf
+printf("good job");
+
+?>
+
+OUTPUT :
+
+hello world
+good looking
+good job

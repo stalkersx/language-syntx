@@ -1,0 +1,122 @@
+				CSS
+
+1. background-color
+  - memberi warna pada latar belakang
+
+	VALUE				 NILAI
+	Color				 red, blue, black, green
+					 olive, teal, navy, lime
+	Hexadecimal			 #FF0000, #00FF00, #0000FF,
+					 #000000, dsb
+	red-green-blue 'rgb()'		 rgba(255,0,0), 
+					 rgba(0%,50%,100%),
+					 rgba(0,0,255), dsb
+	red-green-blue-alpha 'rgba()'	 rgba(255,0,0,1), 
+					 rgba(0%,100%,50%,1),
+					 rgba(0,0,255,0.5), dsb
+	Hue-saturation-lightness 'hsl()' hsl(360,100%,50%), 
+					hsl(240,75%,50%), dsb
+	Hue-saturation-			 hsla(360,100%,50%,0.1), dsb
+	lightness-alpa 'hsla()'
+
+contoh :
+background-color: red;
+background-color: #FF0000;
+background-color: rgba(255,0,0);
+
+2. background-image
+  - memberi gambar pada latar belakang dari suatu element
+
+	VALUE				NILAI
+	url('gambar.ping')		gambar dari link
+
+contoh :
+background-image: url('gambar.ping');
+
+3. background-repeat
+  - memberi perintah pada gambar yang ada di latar belakang untuk perulangan.
+
+	VALUE			NILAI
+	repeat			membuat gambar pada background 
+				melakukan perulangan secara 
+				horizontal dan vertical
+	repeat-x		membuat gambar pada background
+				melakukan perulangan secara horizontal
+	repeat-z		membuat gambar pada background 
+				melakukan perulangan secara vertical
+	no-repeat		membuat gambar pada background 
+				hanya satu atau tidak melakukan 
+				perulangan
+
+contoh
+background-repeat: no-repeat
+
+4. background-position
+  - mengatur posisi gambar pada latar belakang
+
+	VALUE		NILAI
+	left top	right top
+	left center	right center
+	left bottom	right bottom
+	center top	50% 50%
+	center center	50px 50px
+	center bottom	initial
+
+contoh :
+background-position: center top;
+
+5. background-attachment
+  - mengatur suatu gambar apakah jika mouse di scroll gambar 
+    ikut scroll atau tetap
+
+	VALUE		NILAI
+	scroll		gambar background akan bergulir jika mouse
+			discroll
+	fixed		gambar background akan diam/tidak bergulir
+			jika mouse di scroll
+	local		gambar background akan bergulir dengan 
+			isi dari element atau content
+	initial		mengatur properti ke nilai standarnya/
+			default.
+contoh :
+background-attachment: scroll;
+
+6. background-size
+  - menentukan ukuran gambar pada latar belakang
+
+	VALUE		NILAI
+	px, em,		Mengatur lebar dan tinggi dari gambar 
+	mm, cm, dll	background dengan ukuran. misal 10px 
+			5px, 10px untuk lebar dan 5px untuk tinggi.
+	%		Mengatur lebar dan tinggi dari gambar 
+			background dalam ukuran persen. 
+			misal 50% 25%, 50% untuk 
+			lebar dan 25% untuk tinggi.
+	auto		gambar background akan 
+			ditampilkan secara asli(ukuran asli 
+			dari gambar)
+	contain		resize image, merubah ukuran gambar 
+			dan memastikan gambar terlihat sepenuhnya
+	cover		membuat gambar background fullscreen.
+	initial		setel value ke default
+
+contoh :
+background-size: 10px;
+
+7. background-clip
+  - menentukan area lukisan pada latar belakang
+
+	VALUE		NILAI
+	
+8. background-origin
+  - menentukan dimana sebuah gambar diposisikan
+
+
+9. background
+  - mengatur latar belakang pada element secara luas
+  - bisa mengambil semua bagian value
+  - contoh dibawah dengan mengambil value dari background-image,
+    background-repeat, dan background-position
+
+contoh :
+selector { background: white url('php.png') no-repeat left top; }

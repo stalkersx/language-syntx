@@ -1,0 +1,12 @@
+			CONTOH ARRAYS RUBY
+
+#!/bin/ruby
+
+#arrays satu dimensi
+a=["ayam","ikan","tikus"]
+
+printf("ada %s dikolam",a[1])
+
+OUTPUT :
+
+ada ikan dikolam

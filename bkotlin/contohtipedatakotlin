@@ -1,0 +1,24 @@
+			CONTOH TIPEDATA KOTLIN
+
+//main
+fun main(){
+  //String
+  val a = "kalimat"
+
+  //integer
+  val b = 3
+
+  //double
+  val c = 4.7
+
+  //char
+  val d = '+'
+
+  print(a + b + c + d)
+
+}
+
+OUTPUT :
+
+kalimat34.7+
+

@@ -1,0 +1,78 @@
+				    TAG HTML
+
+DAFTAR TAG HTML
+
+	<namaTagPembuka> method </namaTagPenutup>
+
+penjelasan :
+- tanda <> ialah block tag pembuka
+- tanda </> ialah block tag penutup
+
+	TAG PEMBUKA	TAG PENUTUP	PENJELASAN
+	<html>		</html>		deklarasi bahwa penulisan dengan kode html
+	<head>		</head>		kepala
+	<body>		</body>		badan
+	<title>		</title>	judul halaman
+	<h1-6>		</h1-6>		judul teks
+	<p>		</p>		membuat paragraf
+	<hr>		</hr>		membuat garis horizontal
+	<!-..		..->		membuat comments
+	<b>		</b>		menebalkan teks
+	<blockquote>	</blockquote>	menentukan kutipan dari sumber lain
+	<code>		</code>		menentukan kode komputer
+	<em>		</em>		membuat teks miring/ditekan
+	<i>		</i>		membuat teks miring
+	<pre>		</pre>		menentukan teks diformat
+	<q>		</q>		menentukan kutipan pendek
+	<s>		</s>		menentukan kutipan pendek
+	<small>		</small>	menentukan teks yg lebih kecil
+	<strong>	</strong>	membuat teks tebal/teks penting
+	<sub>		</sub>		menentukan teks langganan
+	<time>		</time>		menentukan tanggal/waktu
+	<u>		</u>		membuat teks garis bawah
+	<form>		</form>		menentukan formulir html
+	<input>		</input>	membuat form input
+	<textarea>	</textarea>	membuat form teks lebih besar
+	<button>	</button>	menentukan tombol dpt diclick
+	<select>	</select>	menentukan daftar drop-down
+	<option>	</option>	menentukan opsi dari daftar drop-down
+	<label>		</label>	menentukan label untuk elemen input
+	<iframe>	</iframe>	menentukan bingkai inline
+	<img>		</img>		menentukan gambar
+	<canvas>	</canvas>	untuk mengambar grafik
+	<figure>	</figure>	menentukan konten mandiri
+	<svg>		</svg>		menentukan grafik svg
+	<audio>		</audio>	menentukan kontes suara
+	<source>	</source>	menentukan banyak sumber multimedia
+	<a>		</a>		mendefinasikan hyperlink
+	<link>		</link>		menentukan hubungan antara dokumen dan sumber daya eksternal
+	<nav>		</nav>		menentukan link navigasi
+	<ul>		</ul>		menentukan daftar tidak terurut
+	<li>		</li>		menentukan item pada list
+	<dl>		</dl>		menentukan daftar deskripsi
+	<dt>		</dt>		menentukan istilah/nama dalam daftar deskripsi
+	<dd>		</dd>		menentukan daftar istilah
+	<table>		</table>	membuat table
+	<th>		</th>		menentukan header dalam tabel
+	<tr>		</tr>		menentukan baris dalam tabel
+	<td>		</td>		menentukan sel/kotak dalam tabel
+	<thead>		</thead>	mengelompokan konten header dalam sebuah tabel
+	<tbody>		</tbody>	mengelompokan konten isi dalam tabel
+	<tfoot>		</tfoot>	mengelompokan konten footer dalam sebuah tabel
+	<style>		</style>	menentukan informasi untuk document
+	<div>		</div>		membagi halaman dalam block
+	<span>		<span>		membagi halaman dalam block kecil
+	<header>	</header>	menentukan header untuk membagi halaman
+	<footer>	</footer>	menentukan footer untuk membagi halaman
+	<main>		</main>		menentukan konten utama halaman
+	<section>	</section>	menentukan bagian dalam halaman
+	<artikel>	</artikel>	menentukan artikel
+	<aside>		</aside>	menentukan konten lain selain dari halaman
+	<meta>		</meta>		menentukan meta data halaman
+	<scripts>	<scripts>	menentukan skrip
+	<noscripts>	</noscripts>	menentukan konten alternatif untuk pengguna yang tidak mendukung skrip
+	<embed>		</embed>	menentukan wadah untuk aplikasi eksternal
+	<object>	</object>	menentukan object yang disematkan
+	<caption>	</caption>	menentukan keterangan tabel
+	<cite>		</cite>		menentukan judul sebuah karya
+	<abbr>		</abbr>		menentukan singkatan atau akronim

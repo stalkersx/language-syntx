@@ -1,0 +1,21 @@
+			CONTOH TIPEDATA RUBY
+
+#!/bin/ruby
+
+#string
+a="penjumblahan : "
+
+#integer
+b=3
+
+#char
+c='-'
+
+#double
+d=5.7
+
+print(a,b,c,d)
+
+OUTPUT :
+
+penjumblahan : 3-5.7

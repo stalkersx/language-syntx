@@ -1,0 +1,7 @@
+				PYTHON
+
+item = "gitar"
+item2= "piano"
+
+print("aku main {}".format(item))
+print("aku main {0} dan dia main {1}".format(item, item2))

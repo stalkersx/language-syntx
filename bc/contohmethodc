@@ -1,0 +1,40 @@
+			CONTOH METHODS C
+
+
+#include <stdio.h>
+
+//methods void                                                        void methods1(){
+  puts("methods void tanpa parameter");
+}
+void methods2(int a, int b){
+  puts("methods void dengan parameter");
+}
+
+//methods return
+int methods3(){
+  puts("methods return tanpa parameter");
+  return 0;
+}
+int methods4(int a, int b){
+  puts("methods return dengan parameter");
+  return 0;
+}
+
+//methods main bisa gunakan void/return
+void main(){
+
+  //panggil
+  methods1();
+  methods2(2,3);
+  methods3();
+  methods4(1,3);
+
+}
+
+OUTPUT :
+
+methods void tanpa parameter
+methods void dengan parameter
+methods return tanpa parameter
+methods return dengan parameter
+

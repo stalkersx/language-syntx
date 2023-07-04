@@ -1,0 +1,18 @@
+				PYTHON
+
+variabel = 'helo'
+
+1. len()
+
+	# dapatkan total huruf dalam string (hasil : 5)
+	print len(variabel)
+
+2. upper()
+
+	# cetak teks ke huruf kapital (hasil : HELO)
+	print variabel.upper()
+
+3. lower()
+
+	# cetak teks ke huruf kecil (hasil : halo)
+	print variabel.lower()

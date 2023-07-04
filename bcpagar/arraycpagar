@@ -1,0 +1,15 @@
+			   ARRAY C#
+
+1. ARRAY LIST
+
+	//1 dimensi
+	tipedata[] variabel = {nilaitipedata,nilaitipedata};
+
+	//kosong
+	tipedata[] variabel = new tipedata[jumblahitem];
+
+	//pengisian array kosong
+	variabel[index] = item;
+
+	//panggil array
+	variabel[index]

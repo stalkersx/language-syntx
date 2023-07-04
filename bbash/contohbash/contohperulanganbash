@@ -1,0 +1,42 @@
+			CONTOH PERULANGAN BASH
+
+
+#!/bin/bash
+
+#for
+for a in {1..3..1};do echo $a; done
+
+#while
+b=0
+while [[ $b < 3 ]];do echo $b; ((b++)); done
+
+#untill
+until [[ $b -le 3 ]];do echo $b; ((b++)); done
+
+
+#select
+select c in jeruk apel mangga duren;do
+  case $c in
+    "jeruk") echo "dapat jeruk";;
+    "apel") echo "dapat apel";;
+    "mangga") echo "dapat mangga";;
+    "duren") echo "dapat duren";;
+    *) echo "tidak dapat apapun";;
+    esac
+break
+done
+
+OUTPUT :
+
+1
+2
+3
+0
+1
+2
+1) jeruk
+2) apel
+3) mangga
+4) duren
+#? 2
+dapat apel

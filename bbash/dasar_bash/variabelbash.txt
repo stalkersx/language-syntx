@@ -1,0 +1,51 @@
+			    VARIABEL BASH
+
+1. VARIABEL LOCAL
+
+	#didalam method	
+	method(){
+	  variabellocal=nilaitipedata
+	}
+	method
+
+2. VARIABEL GLOBAL
+
+	#diluar method
+	method(){
+
+	}
+	variabelglobal=nilaitipedata
+	method
+
+3. VARIABEL PARAMETER
+
+	#mengirim data variabel global ke dalam method
+	method(){
+	echo $1
+	}
+	variabelglobal=nilaitipedata
+	method $variabelglobal
+
+	#mengirim data variabel local ke luar method
+	method(){
+	variabellocal=nilaitipedata
+	}
+	method variabellocal
+	echo $variabellocal
+
+4. VARIABEL TIPEDATA
+
+	variabel=nilaitipedata
+
+5. VARIABEL ARRAY
+
+	#mode 1
+	variabelArray=(item item)
+
+	#mode 2
+	declare -a variabelArray
+
+6. VARIABEL METHODS
+
+	variabelMethods(){ }
+

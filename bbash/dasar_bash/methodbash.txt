@@ -1,0 +1,34 @@
+			     METHODS BASH
+
+
+1. METHODS FUNCTION
+
+	#membuat method function
+	function variabelMethods(){
+	   #method/output;
+	}
+
+	#panggil method mode 1
+	variabelMethods
+
+2. METHODS PARAMETER
+
+- parameter ialah variabel yang berisi nilai tipedata
+
+	#misal pakai function
+	function variabelMethods(){
+	   $1; $2
+	}
+
+	#panggil parameter
+	variabelMethods nilaiParameter1, nilaiParameter2
+
+3. METHODS VARIABEL
+
+	#membuat method variabel
+	variabelMethods(){
+	   #method/output;
+	}
+
+	#panggil method
+	variabelMethods

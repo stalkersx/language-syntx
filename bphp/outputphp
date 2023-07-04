@@ -1,0 +1,20 @@
+			     OUTPUT PHP
+
+1. OUTPUT ECHO
+
+	//mode 1
+	echo nilaitipedata/variabel;
+
+	//mode 2
+	echo(nilaitipedata/variabel);
+
+2. OUTPUT PRINT
+
+	//mode 1
+	print nilaitipedata/variabel;
+
+	//mode 2
+	print(nilaitipedata/variabel);
+
+	//mode 3
+	printf("%format",nilaitipedata/variabel);

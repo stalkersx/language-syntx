@@ -1,0 +1,5 @@
+				INPUT C#
+
+1. INPUT CONSOLE
+
+	tipedata var = Console.ReadLine();

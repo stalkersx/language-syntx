@@ -1,0 +1,21 @@
+			CONTOH ARRAYS PHP
+
+
+<?php
+
+//arrays kosong
+$a = Array();
+$a[0] = 3;
+$a[1] = 2;
+
+//arrays satu dimensi
+$b = Array("ayam","ikan","bebek");
+
+print("ada $a[1] $b[1] dikolam");
+
+?>
+
+OUTPUT :
+
+ada 2 ikan dikolam
+

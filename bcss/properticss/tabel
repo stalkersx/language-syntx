@@ -1,0 +1,8 @@
+				CSS
+
+1. border	Membuat dan mengatur garis tepi secara keseluruhan
+2. border-collapse	Mengatur pembatas sel pada tabel apakah akan diciutkan atau tidak.
+3. border-spacing	menentukan jarak pembatas antar sel pada tabel
+4. caption-side	mengatur dan menentukan penempatan dari elemen caption pada tabel
+5. empty-cells	untuk mengatur pembatas dan latar belakang pada sel yang kosong
+6. table-layout	menentukan tata letak/layout untuk tabel

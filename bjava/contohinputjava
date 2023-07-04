@@ -1,0 +1,53 @@
+			CONTOH INPUT JAVA
+
+
+import java.util.Scanner;
+import java.io.Console;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.lang.Exception;
+import javax.swing.JOptionPane;
+
+public class contoh {
+  public static void main(String[]Args) throws Exception {
+    //scanner
+    Scanner a = new Scanner(System.in);
+
+    System.out.print("nama : ");
+    String b = a.next();
+
+    //bufferedreader
+    BufferedReader c = new BufferedReader(new InputStreamReader(Syste>
+
+    System.out.print("umur : ");
+    String z = c.readLine();
+    int d = Integer.parseInt(z);
+
+    //console
+    System.out.print("kelas : ");
+    Console e = System.console();
+    String f = e.readLine();
+    int g = Integer.parseInt(f);
+
+    //joptionpane (hanya bisa digunakan di desktop gui)
+    //String h = JOptionPane.showInputDialog("jurusan : ");
+
+    System.out.println("\nSISWA SMK 1 JAKARTA");
+    System.out.println("nama  : " + b);
+    System.out.println("umur  : " + d);
+    System.out.println("kelas : " + g);
+    //JOptionPane.showMessageDialog(null, "jurusan : ");
+  }
+}
+
+OUTPUT :
+
+nama : doni
+umur : 14
+kelas : 11
+
+SISWA SMK 1 JAKARTA
+nama  : doni
+umur  : 14
+kelas : 11
+

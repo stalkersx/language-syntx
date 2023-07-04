@@ -1,0 +1,29 @@
+			CONTOH METHODS BASH
+
+#!/bin/bash
+
+#function methods
+function methods(){
+  echo "ini function methods"
+}
+
+#methods variabel
+variabelMethods(){
+  echo "ini methods variabel"
+}
+
+#contoh methods variabel diberi 2 parameter
+methodsParameter(){
+  echo $1 $2
+}
+
+#panggil methods
+methods
+variabelMethods
+methodsParameter "ini methods" "parameter"
+
+OUTPUT :
+
+ini function methods
+ini methods variabel
+ini methods parameter

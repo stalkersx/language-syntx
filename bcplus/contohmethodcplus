@@ -1,0 +1,36 @@
+			CONTOH METHODS C++
+
+#include <iostream>
+using namespace std;
+
+void methodvoid1(){
+  cout << "methods void tanpa parameter\n";
+}
+void methodvoid2(int a, int b){
+  cout << "method void dengan parameter\n";
+}
+int methodreturn1(){
+
+  cout << "method return tanpa parameter\n";
+
+ return 0;
+}
+int methodreturn2(int a, int b){
+
+  cout << "method return dengan parameter\n";
+
+  return 0;
+}
+int main(){
+
+  //panggil method                                                      methodvoid1();
+  methodvoid2(2,9);                                                     methodreturn1();                                                      methodreturn2(4,5);
+                                                                        return 0;
+}
+
+OUTPUT :
+
+methods void tanpa parameter
+method void dengan parameter
+method return tanpa parameter
+method return dengan parameter

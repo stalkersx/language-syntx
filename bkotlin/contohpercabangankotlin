@@ -1,0 +1,21 @@
+			CONTOH PERCABANGAN KOTLIN
+
+//main
+fun main(){
+
+  //if/else if/else
+  var a = 3;
+  if (a == 3){
+    print("if")
+  }
+  else if (a < 3){
+    print("else if")
+  }
+  else {
+    print("else")
+  }
+
+}
+
+OUTPUT :                                                              
+if

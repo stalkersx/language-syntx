@@ -1,0 +1,27 @@
+			 INFORMASI PYTHON
+
+1. NAMA PACKAGE LINUX
+
+- python
+- python2
+- python3
+
+2. FORMAT FILE
+
+- namaFile.py
+
+3. FILE SCRIPTS
+
+- tidak ada pembuka scripts bahasa python
+- comments scripts bahasa python
+  #ini adalah comments
+- tidak membutuhkan method main
+- bisa ya/bisa tidak membuat object class
+- method harus dibuat diatas method main
+- tidak membutuhkan tanda ; pada coding
+
+4. EXECTION SCRIPTS
+
+- python formatFile
+- python2 formatFile
+- python3 formatFile

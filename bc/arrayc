@@ -1,0 +1,28 @@
+			      Arrays C
+
+1. ARRAY SATU DIMENSI
+
+   //array 1 dimensi
+   tipedata variabel[JumblahIndex] = {item,item,item};
+
+   //panggil
+   variabel[index];
+
+2. ARRAY KOSONG
+
+   //array kosong
+   tipedata variabel[JumblahIndex];
+
+   //mengisi array kosong
+   tipedata variabel[index] = item;
+
+   //panggil array
+   variabel[index];
+
+3. ARRAY DUA DIMENSI
+
+   //pembuatan
+   tipedata variabel[jumblahIndex][jumblahChar] = {"nilaiString","nilaiString"};
+
+   //panggil
+   variabel[index];

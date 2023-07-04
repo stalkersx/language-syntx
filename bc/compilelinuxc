@@ -1,0 +1,7 @@
+                             COMPILER
+
+1. COMMAND LINUX
+
+  gcc -o newfile file.c
+  |__ compile dari command terminal linux
+

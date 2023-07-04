@@ -1,0 +1,10 @@
+
+- ambil nama file yang ada spasi
+- tulis kode (ifs) diawal dan akhir codingan
+
+#awal scripts
+OLDIFS=$IFS
+IFS=$'\n'
+
+#akhir scripts
+IFS=$OLDIFS

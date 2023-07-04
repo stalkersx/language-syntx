@@ -1,0 +1,13 @@
+			   OUTPUT C
+
+1. OUTPUT PRINF
+
+	printf("%format", variabel);
+
+2. OUTPUT PUTS
+
+	puts("nilaiString"/variabel);
+
+3. OUTPUT PUTCHAR
+
+	putchar('nilaiChar'/variabel);

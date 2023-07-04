@@ -1,0 +1,21 @@
+			CONTOH TIPEDATA BASH
+
+#!/bin/bash
+
+#string
+a="penjumblahan : "
+
+#double
+b=10.5
+
+#character
+c='+'
+
+#integer
+d=11
+
+echo $a $b $c $d
+
+OUTPUT :
+
+penjumblahan : 10.5 + 11

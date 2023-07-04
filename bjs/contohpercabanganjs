@@ -1,0 +1,17 @@
+			CONTOH PERCABANGAN JS
+
+//if/else if/else
+var a = 3;
+if (a == 3){
+  console.log("if");
+}
+else if (a != 3){
+  console.log("else if");
+}
+else {
+  console.log("else");
+}
+
+OUTPUT :
+
+if

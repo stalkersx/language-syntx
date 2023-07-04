@@ -1,0 +1,23 @@
+			CONTOH PERCABANGAN JAVA
+
+public class contoh {
+  public static void main(String[]Args){
+    //if/else if/else
+    int a = 3;
+    if (a == 3){
+      System.out.println("if");
+    }
+    else if (a <= 3){
+      System.out.println("else if");
+    }
+    else {
+      System.out.println("else");
+    }
+  }
+}
+
+
+OUTPUT :
+
+if
+

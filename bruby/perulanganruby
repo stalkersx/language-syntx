@@ -1,0 +1,29 @@
+			PERULANGAN RUBY
+
+1. PERULANGAN FOR
+
+	#mode 1
+	for variabel in 1..10
+	  #output/method
+	end
+
+penjelasan :
+- for ialah keywork perulangan
+- 1..10 ialah kondisi dimana 1 adalah awal nilai, 10 adalah batas perulangan
+- end ialah penutup block perulangan
+
+2. PERULANGAN WHILE
+
+	variabel=0
+	while kondisi
+	  #output/method
+	  variabel = variabel+1
+	end
+
+penjelasan :
+- while ialah keywork perulangan
+- variabel=0 ialah awal mulai percabangan
+- kondisi ialah 2 nilai yang akan dibandingkan
+- variabel+1 ialah setiap perulangan 1x
+- end ialah penutup block perulangan
+

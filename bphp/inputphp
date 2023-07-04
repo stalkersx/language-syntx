@@ -1,0 +1,10 @@
+			     INPUT PHP
+
+1. INPUT FOPEN
+
+	$variabel1 = fopen("php://stdin","r");
+	$variabel2 = trim(fgets($variabel1));
+
+2. INPUT STDIN
+
+	$variabel = trim(fgets(STDIN));

@@ -1,0 +1,26 @@
+			CONTOH ARRAYS C++
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  //Arrays kosong
+  double a[20];
+  a[0] = 2.7;
+  a[1] = 3.8;
+
+  //arrays dua dimensi
+  int b[5] = {1,2,3,4};
+
+  //Array dua dimensi
+  char c[4][10] = {"kucing","kambing","kelici","sapi"};
+
+  cout << "ada " << a[0] << " juta dan " << b[2] << " ekor " << c[2];
+
+}
+
+OUTPUT :
+
+ada 2.7 juta dan 3 ekor kelici
+

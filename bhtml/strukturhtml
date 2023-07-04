@@ -1,0 +1,34 @@
+			 STRUKTUR HTML
+
+1. ATURAN PENULISAN KODE
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+	    <title>Judul Website</title>
+	</head>
+	<body>
+	    <p>Konten Website</p>
+	</body>
+	</html>
+
+B. PENJELASAN
+
+1. Tag Doctype 
+   adalah tag yang menyatakan bahwa kode adalah dokumen html. 
+Berfungsi untuk memberitahu akan dokumen yang akan dijalankan pada 
+browser.
+
+2. Tag html 
+   adalah tag pembuka dan penutup dari keseluruhan sebuah dokumen 
+html
+
+3. Tag head 
+   umumnya berisi elemen yang tidak tampak pada browser, 
+seperti memanggil css, membuat judul website, membuat favicon, 
+dan lain-lain. intinya di dalam tag head tidak akan tampil 
+di browser.
+
+4. Tag body 
+   Sebaliknya, berisi elemen yang akan tampak pada browser. 
+Seperti paragraf, memasukkan gambar, dan lain-lain.

@@ -1,0 +1,75 @@
+			PERULANGAN BASH
+0. PAUSE PERULANGAN :
+- break
+   |_ jika bertemu break perulangan akan berhenti, namun jika itu perulangan
+bersarang maka hitung berapa banyak perulangan yang dibuat, misal 4 for
+bersarang.
+contoh : break 3 = berhentikan 3 perulangan for, namun 1 perulangan akan
+         berjalan sampai selesai perulangan.
+
+- continue
+   |_ jika bertemu continue, codingan selanjutnya akan di skip, jika itu
+perulangañ bersarang tambahkan parameter berapa for misal
+contoh : continue 4 = misalnya pada perulangan for, akan men skip 4
+         perulangan for.
+
+- exit
+   |_ paksa berhenti semua perulangan, semua aktifitas coding.
+
+1. PERULANGAN FOR
+
+	#mode 1
+	for variabel in {1..10..1};do #output/method; done
+
+	#mode 2
+	for variabel in 1 2 3 4;do #ouput/method; done
+
+	#mode 3
+	for variabel in $list;do #output/method; done
+
+penjelasan :
+- for ialah keywork perulangam
+- {1..10..1} ialah kondisi dimana 1 adalah awal nilai, 10 adalah batas perulangan, 1 adalah penambahan setiap kali melakukan perulangan
+- 1234 ialah kondisi berapa kali perulangan
+- $list ialah sebuah array
+- do ialah pembuka block perulangan
+- done ialah penutup block perulangan
+
+2. PERULANGAN WHILE
+
+	while [[ kondisi ]];do
+	    #output/method; ((variabel++))
+	done
+
+penjelasan :
+- while ialah keywork perulangan
+- [[ kondisi ]] ialah 2 nilai yang akan dibandingkan
+- do ialah pembuka block perulangan
+- variabel++ ialah setiap perulangan 1x
+- done ialah penutup block perulangan
+
+3. PERULANGAN UNTIL
+
+	until [[ kondisi ]];do
+	    #output/method; variabel=$((variabel+1))
+	done
+
+penjelasan :
+- until mirip dengan while
+- variabel=$((variabel+1)) ialah setiap mengulang akan ditambah 1
+
+4. SELECT
+
+	select variabel in pilih1 pilih2 pilih3;do
+	    #method/output
+	break
+	done
+
+penjelasan :
+- select ialah keywork perulangan
+- select mirip dengan percabangan case
+- pilih1-3 ialah kondisi nilai
+- do ialah pembuka block perulangan
+- break ialah untuk paksa berhenti
+- done ialah penutup block perulangan
+

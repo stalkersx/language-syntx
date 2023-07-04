@@ -1,0 +1,14 @@
+			CONTOH OUTPUT C#
+
+using System;
+
+public class contoh {
+        public static void Main(String[]Args){
+                Console.Write("hello world");
+        }
+}
+
+OUTPUT :
+
+hello world
+

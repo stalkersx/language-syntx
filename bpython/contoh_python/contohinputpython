@@ -1,0 +1,12 @@
+			CONTOH INPUT PYTHON
+
+#python
+
+#input
+a=input("nama : ")
+print(a)
+
+OUTPUT :
+
+nama : doni
+doni

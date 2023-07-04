@@ -1,0 +1,23 @@
+				CSS
+
+	VALUE           DESKRIPSI
+        px, em, cm      mengatur margin dengan ukuran yang dipilih.
+                        misal, 10px, 1em, 0.5cm, dll.
+        %               mengatur margin dengan ukuran dalam
+                        bentuk persen. misal 25%, 50%, 35%, dll.
+        initial         mengembalikan nilai dari properti margin
+                        ke default value.
+        auto            secara otomatis niali dari properti margin
+                        akan diatur oleh browser
+	center		rata tengah
+	top		rata atas
+	bottom		rata bawah
+	left		rata kiri
+	right		rata kanan
+
+1. width	Mengatur lebar pada elemen
+2. height	Mengatur tinggi pada elemen
+3. max-width	mengatur lebar pada elemen secara maksimum
+4. max-height	mengatur tinggi pada elemen secara maksimum
+5. min-width	mengatur lebar pada elemen secara minimum
+6. min-height	mengatur tinggi pada elemen secara minimum

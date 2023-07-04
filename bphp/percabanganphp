@@ -1,0 +1,20 @@
+			    PERCABANGAN C
+
+1. PERCABANGAN IF/ELSE IF/ELSE
+
+	if ( kondisi ) {
+	   //methods/output;
+	}
+	else if ( kondisi ) {
+	   //methods/output;
+	}
+	else {
+	   //methods/output;
+	}
+
+penjelasan :
+- if/else if/else ialah keywork percabangan
+- (kondisi) ialah perbandingan 2 nilai
+- tanda {} ialah pembuka dan penutup block
+
+

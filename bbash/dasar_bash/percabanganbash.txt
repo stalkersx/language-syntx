@@ -1,0 +1,48 @@
+			PERCABANGAN BASH
+
+1. PERCABANGAN IF/ELIF/ELSE
+
+	#mode 1 kondisi 1 nilai
+	if ! [ kondisi ];then
+	  #method/output
+	elif [ kondisi ];then
+	  #method/output
+	else
+	  #method/output
+	fi
+
+	#mode 2 kondisi 2 nilai
+	if [[ kondisi ]];then
+	  #method/output
+	elif [[ kondisi ]];then
+	  #method/output
+	else
+	  #method/output
+	fi
+
+penjelasan :
+- if/elif/else ialah keywork percabangan
+- tanda ! ialah narasi pada 1 kondisi yang dibandingkan
+- [ kondisi ] ialah nilai yg dibandingkan cuma 1
+- [[ kondisi ]] ialah nilai yg dibandingkan 2
+- then ialah pembuka block if
+- fi ialah penutup block fi
+- eksekusi dengan kondisi hanya bener
+
+2. PERCABANGAN CASE
+
+	case variabel in
+	1) #output/method;;
+	2) #output/method;;
+	3) #output/method;;
+	*) #output/method;;
+	esac
+
+penjelasan :
+- case ialah keywork percabangan
+- in ialah pembuka block case
+- 123 ialah nilai dari tipedata variabel
+- * ialah else pada case
+- esac ialah penutup block case
+- eksekusi dengan memilih 1 nilai yg bener
+

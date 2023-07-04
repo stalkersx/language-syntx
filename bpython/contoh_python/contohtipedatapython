@@ -1,0 +1,22 @@
+			CONTOH TIPEDATA PYTHON
+
+#python
+
+#string
+a="penjumblahan : "
+
+#integer
+b=4
+
+#char
+c='+'
+
+#double
+d=4.9
+
+print(a,b,c,d)
+
+OUTPUT :
+
+penjumblahan :  4 + 4.9
+

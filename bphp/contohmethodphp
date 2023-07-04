@@ -1,0 +1,22 @@
+			CONTOH METHODS PHP
+
+<?php
+
+//function
+function methods1(){
+  print("function tanpa parameter\n");
+}
+function methods2($a,$b){
+  print("function dengan parameter\n");
+}
+
+methods1();
+methods2(1,3);
+
+?>
+
+OUTPUT :
+
+function tanpa parameter
+function dengan parameter
+

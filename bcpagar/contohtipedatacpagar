@@ -1,0 +1,29 @@
+			CONTOH TIPEDATA C#
+
+using System;
+
+public class contoh {
+   public static void Main(String[]Args){
+
+	  //String
+	  String d = "Penjumblahan : ";
+	  
+      //integer
+      int a = 2;
+
+      //char
+      char b = '=';
+
+      //double
+      double c = 2.4;
+
+	  console.Write(d);
+      Console.Write(a);
+      Console.Write(b);
+      Console.Write(c);
+   }
+}
+
+OUTPUT :
+
+Penjumbalahan : 2=2.4

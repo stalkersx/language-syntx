@@ -1,0 +1,41 @@
+				CSS
+
+	VALUE		DESKRIPSI
+	px, em, cm	mengatur margin dengan ukuran yang dipilih.
+			misal, 10px, 1em, 0.5cm, dll.
+	%		mengatur margin dengan ukuran dalam 
+			bentuk persen. misal 25%, 50%, 35%, dll.
+	initial		mengembalikan nilai dari properti margin 
+			ke default value.
+	auto		secara otomatis niali dari properti margin 
+			akan diatur oleh browser
+
+1. margin-top
+  - mengatur jarak antar element bagian atas
+
+contoh :
+margin-top: 5px, 10xp;
+
+2. margin-right
+  - mengatur jarak antar element bagian kanan
+
+contoh :
+margin-right: auto;
+
+3. margin-bottom
+  - mengatur jarak antar element bagian bawah
+
+contoh :
+margin-bottom: 2em;
+
+4. margin-left
+  - mengatur jarak antar element bagian kiri
+
+contoh :
+margin-left: 1mm, 3cm;
+
+5. margin
+  - mengatur jarak antar element secara keseluruhan
+
+contoh :
+margin: initial, auto;

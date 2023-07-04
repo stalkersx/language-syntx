@@ -1,0 +1,15 @@
+			CONTOH ARRAYS JS
+
+//arrays kosong
+const a = [];
+a[0] = 1;
+a[1] = 2;
+
+//arrays satu dimensi
+const b = ["ikan","ayam","udang"];
+
+console.log(a[1],b[1]);
+
+OUTPUT :
+
+2 ayam

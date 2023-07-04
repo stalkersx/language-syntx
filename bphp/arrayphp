@@ -1,0 +1,18 @@
+			    ARRAY PHP
+
+1. ARRAY PHP
+
+	//array satu dimensi
+	$variabel = Array(item,item);
+
+	//array kosong
+	$variabel = Array();
+
+	//pengisian item
+	$variabel[index] = item;
+
+	//hapus item
+	unset(item);
+
+	//penggil array
+	$variabel[index]

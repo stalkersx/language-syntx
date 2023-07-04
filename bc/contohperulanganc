@@ -1,0 +1,29 @@
+			CONTOH PERULANGAN C
+
+#include <stdio.h>
+
+void main(){
+
+  //for
+  for (int b = 1; b <= 3; b++){
+     printf("%d\n",b);
+  }
+
+  //while
+  int a = 0;
+  while (a < 3){
+    printf("%d\n",a);
+    a++;
+  }
+
+}
+
+OUTPUT :
+
+1
+2
+3
+0
+1
+2
+

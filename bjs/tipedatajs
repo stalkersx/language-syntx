@@ -1,0 +1,33 @@
+			 TIPE DATA JAVASCRIPTS
+
+1. STRING
+
+	//pembuatan
+	var variabel = "string";
+
+	//panggil
+	variabel
+
+2. INTEGER
+
+	//pembuatan
+	var variabel = angka;
+
+	//panggil
+	variabel
+
+3. DOUBLE
+
+	//pembuatan
+	var variabel = angkaKoma;
+
+	//panggil
+	variabel
+
+4. CHARAKTER
+
+	//pembuatan
+	var variabel = 'char';
+
+	//panggil
+	variabe

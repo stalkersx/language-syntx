@@ -1,0 +1,87 @@
+				CSS
+
+1. font	
+  - Mengatur semua font Properties dalam satu deklarasi
+  - bisa mengatur pd value font apapun
+
+contoh :
+font: italic bolder 15px/20px arial, sans-serif;
+
+2. font-weight	
+  - mengatur ketebalan dari text
+
+	VALUE		DESKRIPSI
+	bold		membuat font pada teks/karakter 
+			menjadi tebal
+	bolder		membuat font pada teks/karakter 
+			menjadi lebih tebal
+	lighter		membuat font pada teks/karakter 
+			menjadi lebih tipis
+	normal		membuat font pada teks/karakter 
+			menjadi normal
+	initial		mengatur value dari properti menjadi 
+			default
+	100,200,.,900	mengatur ketebalan font pada 
+			teks/karakter berdasarkan ukuran nilai 
+			yang dipilih
+
+contoh :
+font-weight: bold;
+
+3. font-size	
+  - mengatur ukuran font sesuai yang diinginkan
+
+	VALUE		DESKRIPSI
+	x-small		
+	small		
+	xx-small	
+	smaller		
+	medium		
+	px, em	
+	mm, cm
+	x-large
+	large
+	xx-large
+	initial
+	..%
+
+contoh :
+font-size: 5px;
+
+4. font-family	
+  - mengatur jenis font yang ingin dipakai
+
+	VALUE
+	serif
+	sans-serif
+	monospace
+	cursive
+	fantasy
+	arial
+
+contoh :
+font-family: arial, cursive;
+
+5. font-style	
+  - mengatur style font yang akan digunakan pada text
+
+	VALUE		DESKRIPSI
+	italic		membuat teks menjadi miring
+	normal		menampilkan teks dengan gaya normal
+	oblique		membuat teks menjadi lebih miring dari 
+			'italic'
+
+contoh :
+font-style: italic;
+
+6. font-variant	
+  - mengatur font apakah menjadi huruf kecil atau tidak
+
+	VALUE
+	initial
+	small-caps
+	normal
+
+contoh :
+font-variant: normal;
+

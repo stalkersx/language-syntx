@@ -1,0 +1,9 @@
+			    INPUT C
+
+1. INPUT SCANF
+
+	scanf("%format",&variabel);
+
+2. INPUT FGETS
+
+	fget(variabel, jumblahHuruf, stdin);

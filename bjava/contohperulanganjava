@@ -1,0 +1,28 @@
+			CONTOH PERULANGAN JAVA
+
+
+public class contoh {
+  public static void main(String[]Args){
+    //for
+    for (int b = 1; b <= 3; b++){
+      System.out.println(b);
+    }
+
+    //while
+    int a = 0;
+    while (a < 3){
+      System.out.println(a);
+      a++;
+    }
+  }
+}
+
+OUTPUT :
+
+1
+2
+3
+0
+1
+2
+

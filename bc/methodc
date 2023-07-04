@@ -1,0 +1,52 @@
+			     METHODS C
+
+1. METHODS MAIN
+
+	//tanpa return
+	void main(){
+	  //methods/output;
+	}
+
+	//dengan return
+	int main(){
+	  //methods/output;
+	  return 0;
+	}
+
+2. METHODS VOID
+
+- parameter ialah sebuah variabel untuk menampung nilai
+
+	//tanpa parameter
+	void variabel(){
+	  //methods/output;
+	}
+
+	//dengan parameter
+	void variabel(tipedata parameter1, tipedata parameter2){
+	  //methods/output;
+	}
+
+	//panggil harus ke dalam methods main
+	variabel(); //tanpa parameter
+	variabel(parameter1, parameter2); //dengan parameter
+
+3. METHODS RETURN
+
+- parameter ialah sebuah variabel untuk menampung nilai
+
+	//tanpa parameter
+	int main(){
+	  //methods/output;
+	  return 0;
+	}
+
+	//dengan parameter
+	int main(tipedata parameter1, tipedata parameter2){
+	  //methods/output;
+	  return 0;
+	}
+
+	//panggil harus ke dalam methods main
+	variabel(); //tanpa parameter
+	variabel(parameter1, parameter2); //dengan parameter

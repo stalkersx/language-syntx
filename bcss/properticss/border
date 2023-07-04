@@ -1,0 +1,128 @@
+				CSS
+
+1. border
+  - Mengatur/membuat Garis tepi secara keseluruhan
+  - bisa mengambil value border apapun
+  - contoh di bawah mengambil value dari border-width, border-style
+    dan border-color
+
+contoh :
+border: 2px solid red;
+
+2. border-width
+  - mengatur lebar dari garis tepi secara keseluruhan
+
+	VALUE			NILAI
+	px, em, cm, dll		menentukan lebar border berdasarkan 
+				ukuran. misal 1px, 0.3125em, 
+				0.5cm, dsb
+	thin			menentukan lebar border dengan 
+				ukuran Tipis.
+	medium			menentukan lebar border dengan 
+				ukuran Sedang.
+	thick			menentukan lebar border dengan 
+				ukuran Tebal.
+
+contoh :
+border-width: 5px;
+
+3. border-top-width
+  - mengatur lebar garis atas
+
+4. border-right-width
+  - mengatur lebar garis kanan
+
+5. border-bottom-width
+  - mengatur lebar garis bawah
+
+6. border-left-width
+  - mengatur lebar garis kiri
+
+7. border-color
+  - mengatur warna dari garis
+
+	VALUE                            NILAI
+        Color                            red, blue, black, green
+                                         olive, teal, navy, lime
+        Hexadecimal                      #FF0000, #00FF00, #0000FF,
+                                         #000000, dsb
+        red-green-blue 'rgb()'           rgba(255,0,0),
+                                         rgba(0%,50%,100%),
+                                         rgba(0,0,255), dsb
+        red-green-blue-alpha 'rgba()'    rgba(255,0,0,1),
+                                         rgba(0%,100%,50%,1),
+                                         rgba(0,0,255,0.5), dsb
+        Hue-saturation-lightness 'hsl()' hsl(360,100%,50%),
+                                         hsl(240,75%,50%), dsb
+        Hue-saturation-                  hsla(360,100%,50%,0.1), dsb
+        lightness-alpa 'hsla()'
+
+contoh :
+border-color: red;
+border-color: hsl(0,0,255);
+
+8. border-style
+  - mengatur style dari garis
+	
+	VALUE		NILAI
+	dashed		garis tepi dengan style putus-putus
+	dotted		garis tepi dengan style bertitik
+	double		garis tepi dengan style ganda
+	groove		garis tepi dengan style groove, 
+			Efeknya akan terlihat tergantung dari 
+			warna border.
+	hidden		garis tepi dengan gaya tersembunyi
+	inset		garis tepi dengan style inset 3D, 
+			Efeknya akan terlihat tergantung dari 
+			warna border.
+	none		tidak menentukan garis tepi
+	outset		garis tepi dengan gaya outset(batas awal 
+			3D). Efeknya akan terlihat tergantung 
+			dari warna border.
+	ridge		garis tepi dengan style bergerigi(3D). 
+			Efeknya akan terlihat tergantung dari 
+			warna border.
+	solid		garis tepi dengan style solid
+
+contoh :
+border-style: hidden;
+
+9. border-top
+  - membuat garis atas
+
+10. border-right
+  - membuat garis kanan
+
+11. border-bottom
+  - membuat garis bawah
+
+12. border-left	
+  - membuat garis kiri
+
+13. border-radius
+  - membuat sudut bulat/radius pada garis
+
+	VALUE			NILAI
+	10px			(1 nilai) value yang ditentukan 
+				membentuk sudut bulat pada keempat 
+				sudut
+	5px 20px		(2 nilai) value pertama membentuk 
+				sudut bulat pada sudut atas-kiri 
+				dan bawah-kanan, value kedua pada 
+				sudut atas-kanan dan bawah-kiri.
+	5px 20px 10px		(3 nilai) value pertama membentuk 
+				sudut bulat untuk atas-kiri, value 
+				kedua untuk atas-kanan dan 
+				bawah-kiri, dan value ketiga 
+				membentuk sudut bulat pada 
+				bawah-kanan.
+	5px 10px 20px 30px	(4 nilai) value pertama membentuk 
+				sudut bulat pada atas-kiri, value 
+				kedua pada atas-kanan, value ketiga
+				pada bawah-kanan, dan value keempat 
+				membentuk sudut bulat pada 
+				bawah-kiri
+
+contoh :
+border-radius: 5px 20px 10px;
+

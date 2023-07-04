@@ -1,0 +1,26 @@
+				CSS
+
+	VALUE           DESKRIPSI
+        px, em, cm      mengatur margin dengan ukuran yang dipilih.
+                        misal, 10px, 1em, 0.5cm, dll.
+        %               mengatur margin dengan ukuran dalam
+                        bentuk persen. misal 25%, 50%, 35%, dll.
+        initial         mengembalikan nilai dari properti margin
+                        ke default value.
+        auto            secara otomatis niali dari properti margin
+                        akan diatur oleh browser
+
+1. padding-top
+  - mengatur ruang pada element dengan konten bagian atas
+
+2. padding-right
+  - mengatur ruang pada element dengan konten bagian kanan
+
+3. padding-bottom
+  - mengatur ruang pada element dengan konten bagian bawah
+
+4. padding-left
+  - mengatur ruang pada element dengan konten bagian kiri
+
+5. padding
+  - mengatur ruang pada element dengan konten secara keseluruhan

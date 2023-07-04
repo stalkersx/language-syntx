@@ -1,0 +1,26 @@
+			   ARRAY JAVA
+
+1. ARRAY SATU DIMENSI
+
+	//pembuatan
+	tipedata[] variabel = {nilaitipedata,nilaitipedata};
+
+	//panggil array
+	variabel[index];
+
+2. ARRAY KOSONG
+
+	//module
+	import java.util.ArrayList;
+
+	//pembuataan
+	ArrayList <Tipedata> variabel = new ArrayList<>();
+
+	//mengisi
+	variabel.add(item);
+
+	//hapus
+	variabel.remove(index);
+
+	//panggil
+	variabel.get(index);

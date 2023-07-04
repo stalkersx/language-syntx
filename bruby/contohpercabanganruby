@@ -1,0 +1,31 @@
+			CONTOH PERCABANGAN RUBY
+
+#!/bin/ruby
+
+#if/elsif/else
+a=3
+#ganti nilai a untuk hasil lain
+if a == 3
+  print("if ")
+elsif a != 3
+  print("elsif ")
+else
+  print("else ")
+end
+
+#case
+b=5
+#ganti nilai b untuk hasil lain
+case
+  when b == 5
+    print("pilihan 1")
+  when b != 5
+    print("pilihan 2")
+  else
+    print("semua pilihan salah")
+end
+
+OUTPUT :
+
+if pilihan 1
+

@@ -1,0 +1,24 @@
+			    PERULANGAN C#
+
+1. PERULANGAN FOR
+
+	for (tipedata var=nilaitipedata; kondisi; var++){
+	   //method/output;
+	}
+
+penjelasan :
+- for ialah keywork perulangan
+- tanda {} ialah pembuka dan penutup block
+
+2. WHILE
+
+	while ( kondisi ) {
+	   //method/output;
+	   var++;
+	}
+
+penjelasan :
+- while ialah keywork perulangan
+- (kondisi) ialah membandingkan 2 nilai
+- tanda {} ialah penutup dan pembuka block
+- var++ ialah jumbah tambah melakukan perulangan

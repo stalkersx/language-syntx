@@ -1,0 +1,24 @@
+			CONTOH PERCABANGAN C#
+
+using System;
+
+public class contoh {
+   public static void Main(String[]Args){
+
+      //if/else if/else
+      var a = 3;
+      if (a == 3){
+         Console.Write("if");
+      }
+      else if (a < 3){
+         Console.Write("else if");
+      }
+      else {
+         Console.Write("else");
+      }
+   }
+}
+
+OUTPUT :
+
+if

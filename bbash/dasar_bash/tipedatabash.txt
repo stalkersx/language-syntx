@@ -1,0 +1,74 @@
+			TIPE DATA BASH
+
+1. STRING
+
+	#pembuatan
+	variabel="nilai string"
+
+	#panggil tipedata string
+	$variabel
+
+	#MEMBUANG CHAR TERPILIH DARI STRING
+	${variabel:index}
+
+	#MENGAMBIL CHAR DALAM STRING
+	#menghitung index dari depan, awalan ialah 0
+	${variabel:index:jumblahkarakter}
+
+	#menghapus beberapa char dari depan
+	${variabel:index}
+
+        #menghapus beberapa char dari belakang
+        ${variabel::-index}
+
+	#menghitung index dari belakang, awalan ialah -1
+	${variabel: -index:jumblahkarakter}
+
+	#mengambil beberapa char dari belakang
+	${variabel: -index}
+        $(variabel: -index:jumblahchar}
+
+	#MENGUBAH HURUF KAPITAL
+	#mengubah karakter string menjadi huruf besar semua
+	${variabel^^}
+
+	#mengubah karakter string huruf besar hanya diawal
+	${variabel^}
+
+	#MENGUBAH NILAI CHAR DALAM STRING
+	#menganti 1 nilai karakter dalam string
+	${variabel/charBefore/charAfter}
+
+	#menganti semua nilai karakter yang ditentukan dalam string
+	${variabel//charBefore/charAfter}
+
+	#MENGHITUNG JUMBLAH CHAR DALAM STRING
+	#total semua karakter dalam string
+	`expr length $a`
+
+2. INTEGER
+
+	#pembuatan
+	variabel=angka
+
+	#panggil tipedata integer
+	$variabel
+
+3. DOUBLE
+
+	#pembuatan
+	variabel=angkaDenganKoma
+
+	#panggil tipedata double
+	$variabel
+
+4. CHARACTER
+
+	#pembuatan
+	variabel='1karakter'
+
+	#panggil tipedata charakter
+	$variabel
+
+
+

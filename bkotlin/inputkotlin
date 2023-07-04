@@ -1,0 +1,32 @@
+			    INPUT JAVA
+
+1. INPUT SCANNER
+
+	METHOD			TIPEDATA
+	nextLong()		long
+	nextShort()		short
+	nextByte()		byte
+	nextInt()		int
+	next().charAt(0)	char
+	next()			string 1 kata
+	nextLine()		string
+	nextFloat()		float
+	nextDouble()		double
+
+	//module
+	//import java.util.Scanner
+
+	//pembuatan
+	val variabel1 = Scanner(System.`in`)
+	var variabel2:Int = variabel1.nextInt()
+
+	//panggil
+	"$variabel2"
+
+2. INPUT READLINE
+
+	//pembuatan
+	val variabel1 = readLine()!!
+
+	//panggil
+	variabel1

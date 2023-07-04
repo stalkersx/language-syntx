@@ -1,0 +1,24 @@
+			CONTOH ARRAYS C#
+
+using System;
+
+public class contoh {
+   public static void Main(String[]Args){
+
+        //arrays kosong
+        int[] a = new int[2];
+        a[0] = 1;
+        a[1] = 2;
+
+        //arrays satu dimensi
+        String[] b = {"ikan","ayam","udang"};
+
+        Console.Write(a[1]);
+        Console.Write(b[0]);
+   }
+}
+
+OUTPUT :
+
+2ikan
+

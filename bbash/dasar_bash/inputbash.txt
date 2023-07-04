@@ -1,0 +1,13 @@
+			     INPUT BASH
+
+1. READ
+
+	#read
+	read variabel
+
+	#read questions
+	read -p "pertanyaan" variabel
+
+	#panggil
+	$variabel
+

@@ -1,0 +1,23 @@
+			CONTOH METHODS RUBY
+
+
+#!/bin/ruby
+
+#def
+def methods1
+  print("method def\n")
+end
+
+#def parameter
+def methods2(a,b)
+  print("method def parameter\n")
+end
+
+#panggil
+methods1
+methods2 2,3
+
+OUTPUT :
+
+method def
+method def parameter

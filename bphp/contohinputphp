@@ -1,0 +1,23 @@
+			CONTOH INPUT PHP
+
+<?php
+
+//fopen
+print "nama : ";
+$a = fopen("php://stdin","r");
+$a = trim(fgets($a));
+
+//stdin
+print "umur : ";
+$b = trim(fgets(STDIN));
+
+print("aku $a berumur $b");
+
+?>
+
+OUTPUT :
+
+nama : doni
+umur : 20
+aku doni berumur 20
+

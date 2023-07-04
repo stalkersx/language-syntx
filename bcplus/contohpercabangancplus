@@ -1,0 +1,26 @@
+			CONTOH PERCABANGAN C++
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  int a = 2;
+  //ganti nilai a untuk hasil lain
+  if (a == 2){
+    cout << "if";
+  }
+  else if (a != 2){
+    cout << "else if";
+  }
+  else {
+    cout << "else";
+  }
+
+  return 0;
+
+}
+
+OUTPUT :
+
+if

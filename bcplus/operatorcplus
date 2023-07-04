@@ -1,0 +1,71 @@
+			   OPERATOR C++
+
+1. OPERATOR ARITMATIKA
+
+	method		operator
+	+		penjumbalahan
+	-		pengurangan
+	*		perkalian
+	/		bagi
+	%		sisa bagi
+	**		pemangkatan
+
+2. OPERATOR PENUGASAN
+
+	method		operator
+	=		pengisian
+	+=		penjumblahan
+	-=		pengurangan
+	*=		perkalian
+	/=		pembagian
+	%=		sisa bagi
+	**		pemangkatan
+
+2. OPWRATOR PERBANDINGAN
+
+	method		operator
+	==		sama dengan
+	!=		tidak sama dengan
+	<		lebih kecil
+	<		lebih kecil sama dengan
+	>		lebih besar
+	>=		lebih besar sama dengan
+
+3. OPERATOR BITWISE
+
+	method		operator
+	&		and
+	&=		and dan menyimpam hasil dlm var tsb
+	|		or
+	|=		or dan menyimpan hasil dlm var tsb
+	^		xor
+	^=		xor dan menyimpan hasil dlm var tsb
+	~		untuk melengkapi nilai
+	<<		menggeser nilai biner ke kiri
+	<<=		menggeser nilai biner ke kiri dan menyimpan hasil d var tsb
+	>>		menggeser nilai biner ke kanan
+	>>=		menggeser nilai biner ke kanan dan menyimpan hasilnya divar tsb
+	<<<		meneruskan data dari kiri kanan ke input standar
+
+
+4. OPERATOR LOGIKA
+
+	method		operator
+	&&		and
+	||		or
+	!		xor/narasi
+
+5. OPERATOR BOOLEAN
+
+	method		operator
+	true		benar
+	false		salah
+
+6. OPERATOR FORMAT
+
+        method          operator
+        \n              newline
+        \t              tab
+        %d              integer
+        %s              string
+        %c              char

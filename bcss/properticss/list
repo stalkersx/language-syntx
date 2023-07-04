@@ -1,0 +1,16 @@
+				CSS
+
+1. list-style-type
+  - menentukan type/jenis penanda yang akan digunakan untuk 
+    daftar item.
+
+2. list-style-position
+  - menentukan posisi dari penanda pada daftar item.
+
+3. list-style-image
+  - menentukan dan merubah penanda pada daftar item dengan 
+    gambar/icon
+
+4. list-style
+  - mengatur secara keseluruhan untuk type/jenis, gambar/icon, 
+    dan posisi dari penanda pada daftar item.

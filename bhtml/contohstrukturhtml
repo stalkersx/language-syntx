@@ -1,0 +1,19 @@
+			CONTOH STRUKTUR HTML
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Judul Url</title>
+</head>
+<body>
+  <h1>Judul Halaman</h1>
+  <p>isi konten</p>
+</body>
+</html>
+
+OUTPUT :
+
+Judul Halaman
+
+isi konten

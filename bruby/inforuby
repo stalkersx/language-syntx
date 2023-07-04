@@ -1,0 +1,26 @@
+			    INFORMASI RUBY
+
+
+1. NAMA PACKAGE LINUX
+
+- ruby
+
+2. FORMAT FILE
+
+- namaFile.rb
+
+3. FILE SCRIPTS
+
+- pembuka scripts bahasa bash
+  #!/bin/ruby
+- comments scripts bahasa bash
+  #ini comments
+- tidak membutuhkan method main
+- bisa ya/bisa tidak membuat object class
+- tidak membutuhkan tanda ; pada coding
+
+4. EXECTION SCRIPTS
+
+- ruby formatFile
+- chmod +x formatFile
+- ./formatFile

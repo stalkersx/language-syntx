@@ -1,0 +1,23 @@
+			CONTOH PERULANGAM JS
+
+//for
+for (var b = 1; b <= 3; b++){
+   console.log(b);
+}
+
+//while
+var a = 0;
+while (a < 3){
+  console.log(a);
+  a++;
+}
+
+
+OUTPUT :
+
+1
+2
+3
+0
+1
+2

@@ -1,0 +1,37 @@
+			PERCABANGAN RUBY
+
+1. PERCABANGAN IF/ELIF/ELSE
+
+	#mode 1 kondisi 1 nilai
+	if kondisi
+	  #method/output
+	elsif kondisi
+	  #method/output
+	else
+	  #method/output
+	end
+
+penjelasan :
+- if/elsif/else ialah keywork percabangan
+- kondisi ialah nilai yg dibandingkan 2
+- end ialah penutup block fi
+- eksekusi dengan kondisi hanya bener
+
+2. PERCABANGAN CASE
+
+	case
+	  when kondisi
+	    #output/method
+	  when kondisi
+	    #output/method
+	  else
+	    #output/method
+	end
+
+penjelasan :
+- case ialah keywork percabangan
+- when ialah pembuka block case
+- kondisi ialah perbandingan nilai dari tipedata variabel
+- else ialah jika semua when salah pada case
+- end ialah penutup block case
+- eksekusi dengan memilih 1 when yg bener

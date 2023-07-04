@@ -1,0 +1,18 @@
+		CONTOH PERCABANGAN PYTHON
+
+#python
+
+#if/elif/else
+a=3
+#ganti nilai a untuk hasil lain
+if a == 3 :
+  print("if")
+elif a != 3 :
+  print("elif")
+else :
+  print("else")
+
+
+OUTPUT :
+
+if

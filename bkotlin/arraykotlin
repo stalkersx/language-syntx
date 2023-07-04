@@ -1,0 +1,13 @@
+			 ARRAY KOTLIN
+
+1. ARRAY OF
+
+	//array 1 dimensi
+	var variabel = arrayOf(item,item,item)
+
+	//pengisian array
+	variabel[index] = item
+
+	//panggil array
+	variabel[index]
+	"$variabel[index]"

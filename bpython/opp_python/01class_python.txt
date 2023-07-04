@@ -1,0 +1,20 @@
+				PYTHON
+
+# buat class
+class variabelclass:
+  # variabel global
+  variabelglobal = "" # variabel kosong tipe string
+
+  # method tanpa parameter
+  def variabelmethod():
+    # import variabelglobal ke method
+    variabelclass.variabelglobal = nilaitipedata
+  # method parameter
+  def variabelmethod(parameter1, parameter2)
+
+# panggil variabel global
+variabelclass.variabelglobal
+
+# panggil method class
+variabelclass.variabelmethod() # tanpa parameter
+variabelclass.variabelmethod(nilaiparameter1, nilaiparameter2) # dengan parameter

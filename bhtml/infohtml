@@ -1,0 +1,20 @@
+				 INFORMASI HTML
+
+1. NAMA PACKAGE LINUX
+
+- w3m
+
+2. FORMAT FILE
+
+- namaFile.html
+
+3. FILE SCRIPTS
+
+- pembuka scripts bahasa python
+  <!DOCTYPE html>
+- comments scripts bahasa python
+  <!-ini adalah comments->
+
+4. EXECTION SCRIPTS
+
+- w3m formatFile

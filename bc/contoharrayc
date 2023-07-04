@@ -1,0 +1,25 @@
+			CONTOH ARRAY C
+
+
+#include <stdio.h>
+
+void main(){
+
+  //arrays kosong
+  int a[3];
+  a[0] = 1;
+  a[1] = 2;
+  a[2] = 3;
+
+  //arrays satu dimensi
+  int b[4] = {1,2,3,4};
+
+  //arrays dua dimensi
+  char c[3][10] = {"ikan","udang","karang"};
+
+  printf("ada %d %s dikolam dan %d mati",b[1],c[0],a[0]);
+}
+
+OUTPUT :
+
+ada 2 ikan dikolam dan 1 mati

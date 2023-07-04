@@ -1,0 +1,8 @@
+- buat file dengan isi codingan
+
+cat >> /path/namafile <<- OEM
+#!/bin/bash
+
+#your coding
+echo "test"
+OEM

@@ -1,0 +1,26 @@
+			CONTOH TIPEDATA C
+
+#include <stdio.h>
+
+void main(){
+
+  //integer
+  int a = 5;
+
+  //char
+  char b = '+';
+
+  //double
+  double c = 3.5;
+
+  //char to string
+  char d[] = "penjumblahan : ";
+
+  printf("%s %d %c %f",d,a,b,c);
+
+}
+
+OUTPUT :
+
+penjumblahan :  5 + 3.500000
+

@@ -1,0 +1,6 @@
+				ARITMATIKA BASH
+
+1. ARITMATIKA DALAM VARIABEL
+
+	#variabel=$((operasi))
+	variabel=$(($variabel+$variabel))

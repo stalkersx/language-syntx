@@ -1,0 +1,22 @@
+			CONTOH ARRAYS PYTHON
+
+#python
+
+#arrays kosong
+a=[]
+a.insert(0, "sayang banget")
+a.insert(1, "tidak sayang")
+
+#arrays satu dimensi
+b=[1,2,3,4]
+
+#arrays tuple
+c=("doni","indah","emi","ryo")
+
+#panggil
+print(c[3],a[0],c[1]," 1 hati")
+
+OUTPUT :
+
+ryo sayang banget indah  1 hati
+

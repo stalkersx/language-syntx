@@ -1,0 +1,29 @@
+			    INFORMASI BASH
+
+
+1. NAMA PACKAGE LINUX
+
+- bash
+
+2. FORMAT FILE
+
+- namaFile.sh
+- namaFile.csh
+- namaFile
+
+3. FILE SCRIPTS
+
+- pembuka scripts bahasa bash
+  #!/bin/bash
+- comments scripts bahasa bash
+  #ini comments
+- tidak membutuhkan method main
+- bisa ya/bisa tidak membuat object class
+- method harus dibuat diatas method main
+- tanda ; pada coding ialah penganti newline
+
+4. EXECTION SCRIPTS
+
+- bash formatFile
+- chmod +x formatFile
+- ./formatFile

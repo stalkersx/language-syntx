@@ -1,0 +1,39 @@
+			CONTOH METHODS C#
+
+using System;
+
+public class contoh {
+  //methods void
+  public void methods1(){
+    Console.Write("methods void\n");
+  }
+
+  //method return
+  public int methods2(){
+    Console.Write("methods return\n");
+    return 0;
+  }
+
+  //mwthod parameter pada void/return
+  public void methods3(int a, int b){
+    Console.Write("methods parameter\n");
+  }
+
+  //method main
+  public static void Main(String[]Args){
+    Console.Write("methods main\n");
+    //panggil methods
+    contoh a = new contoh(); //membuat methods
+    a.methods1();
+    a.methods2();
+    a.methods3(1,3);
+  }
+}
+
+OUTPUT :
+
+methods main
+methods void
+methods return
+methods parameter
+

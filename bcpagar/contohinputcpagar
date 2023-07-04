@@ -1,0 +1,20 @@
+			CONTOH INPUT C#
+
+
+using System;
+
+public class contoh {
+   public static void Main(String[]Args){
+
+      //readline
+      Console.Write("nama : ");
+      var a = Console.ReadLine();
+      Console.Write(a);
+   }
+}
+
+
+OUTPUT :
+
+nama : doni
+doni

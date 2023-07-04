@@ -1,0 +1,219 @@
+				CSS
+
+1. color
+ - memberi warna pada text
+
+	VALUE		DESKRIPSI
+	color		nilai dengan menggunakan nama warna misal 
+			red, blue, black, yellow, dsb
+	HEX		memberikan nilai dalam bentuk Hexadecimal. 
+			contoh #FFFFFF, #328328, #DEDEDE
+	rgb		Nilai RGB atau disebut Red-Green-Blue 
+			misal rgb(200,255,0)
+	rgba		Nilai RGBA atau disebut Red-Green-Blue-Alpha
+			misal rgba(102,51,0,1)
+	hsl		Nilai HSL atau disebut Hue-Saturation-
+			Lightness misal hsl(360,100%,50%)
+	hsla		Nilai HSLA atau disebut Hue-Saturation-
+			Lightness-Alpha misal hsla(360,100%,50%,0.1)
+
+contoh :
+color: red;
+
+2. direction
+ - Menentukan arah penulisan Text
+
+	VALUE		DESKCRIPSI
+	ltr		left-to-right
+	rtl		right-to-left
+	inherit		membuat nilai mengikuti induxnya
+	intial		mengembalikan nilai ke defaultnya
+
+contoh :
+direction: ltr;
+
+3. letter-spacing
+ - mengatur jarak spasi antar karakter/huruf
+
+	VALUE			DESKRIPSI
+	normal			jarak antar huruf diatur normal 
+				atau default
+	px, em, pt, cm, etc	jarak antar huruf diatur berdasarkan 
+				nilai ukuran misal 10px, 1em, 
+				0.5cm, dsb
+	initial			mengembalikan nilai dari letter-
+				spacing ke defaultnya.
+	inherit			nilai yang diatur mengikuti 
+				induk(parent element)
+
+contoh :
+letter-spacing: normal;
+
+4. line-height
+ - mengatur jarak line/garis
+
+	VALUE			DESKRIPSI
+	normal
+	em, px
+	angka
+
+contoh :
+line-height: 1.6;
+
+5. text-align
+ - mengatur posisi dari text. misalnya center,left,right
+
+	VALUE		DESKRIPSI
+	right		rata kanan
+	left		rata kata kiri
+	center		rata tengah
+	justify		
+	inherit		mengikuti nilai indux
+	intial		mengembalikan nilai ke default
+
+contoh :
+text-align: left;
+
+6. text-decoration
+ - menentukan dekorasi yang akan ditambahkan ke Teks
+
+	VALUE			DESKRIPSI
+	text-decoration-line	mengatur garis yang digunakan 
+				menggunakan nilai seperti : 
+				none, underline, overline, 
+				dan line-through
+	text-decoration-color	mengatur warna garis dengan nama 
+				warna(red, black, dsb), 
+				Hex(#fff, #03c, dsb), 
+				rgb, hsl, dsb
+	text-decoration-style	mengatur gaya garis yang dibuat 
+				dengan nilai seperti : solid, 
+				wavy, dotted, dashed, double
+	initial			mengembalikan nilai properti ke 
+				default-nya
+	inherit			efek dari inherit menghasilkan 
+				nilai yang mengikuti induk(parent
+				element)
+
+contoh :
+text-decoration-line: overline;
+
+7. text-indent
+ - menentukan margin/lekukan dari baris pertama dalam blok teks
+
+	VALUE                   DESKRIPSI
+        normal
+        em, px
+        angka
+
+contoh :
+text-indent: 5px;
+
+8. text-overflow
+ - untuk menyembunyikan, menampilkan atau membuat scroll 
+   pada content atau gambar
+	
+9. text-shadow
+ - memberikan efek bayangan pada teks/kata
+
+	VALUE           DESKRIPSI
+        color           nilai dengan menggunakan nama warna misal
+                        red, blue, black, yellow, dsb
+        HEX             memberikan nilai dalam bentuk Hexadecimal.
+                        contoh #FFFFFF, #328328, #DEDEDE
+        rgb             Nilai RGB atau disebut Red-Green-Blue
+                        misal rgb(200,255,0)
+        rgba            Nilai RGBA atau disebut Red-Green-Blue-Alpha
+                        misal rgba(102,51,0,1)
+        hsl             Nilai HSL atau disebut Hue-Saturation-
+                        Lightness misal hsl(360,100%,50%)
+        hsla            Nilai HSLA atau disebut Hue-Saturation-
+                        Lightness-Alpha misal hsla(360,100%,50%,0.1)
+contoh :
+text-shadow: 5px, #FFFFFF;
+
+10. text-transform
+ - mengontrol kapitalisasi dari teks
+
+	VALUE		DESKRIPSI
+	capitalize	hurufbesar
+	lowercase
+	uppercase
+
+contoh :
+text-transform: lowercase;
+
+11. unicode-bidi
+ - mengontrol dan mengarahkan pada tulisan unicode
+
+	VALUE		DESKRIPSI
+	normal
+	embed
+	bidi-override
+
+contoh :
+unicode-bidi: bidi-override;
+
+
+12. vertical-align
+ - mengatur perataan vertical pada element. misalnya middle,bottom
+
+	VALUE		DESKRIPSI
+	baseline	elemen yang diatur disejajarkan dengan 
+			garis dasar induk. default value
+	sub		elemen yang diatur selaras dengan induk 
+			elemen secara subsript. elemen yang 
+			dihasilkan posisinya agak kebawah
+	super		elemen yang diatur selaras dengan induk 
+			elemen secara supersript. elemen yang 
+			dihasilkan posisinya agak keatas
+	text-top	elemen disejajarkan dengan font elemen 
+			induk pada bagian atas
+	text-bottom	elemen disejajarkan dengan font elemen 
+			induk pada bagian bawah
+	top		elemen diposisikan diatas pada elemen 
+			induknya
+	middle		elemen diposisikan ditengah pada elemen 
+			induknya
+	bottom		elemen diposisikan dibawah pada elemen 
+			induknya
+	px,em,cm,dsb	nilai berdasarkan ukuran yang digunakan 
+			misal 10px, 1em, 0.5cm, 1pt, dsb
+	%		mengatur perataan vertical berdasarkan 
+			nilai persen yang digunakan misal 
+			45%, 50%, etc
+
+contoh :
+vertical-align: middle;
+
+13. white-space
+ - mengatur keseluruhan spasi pada elemen(ruang putih)
+
+	VALUE		DESKRIPSI
+	normal		default value
+	nowrap		garis baru diatur ulang/collapse, spasi 
+			dan tab diatur ulang/collapse, text 
+			wrapping 'tidak', dan spasi diakhir baris 
+			dihilangkan.
+	pre		garis baru dipertahankan, spasi dan tab 
+			dipertahankan, text wrapping 'tidak', dan 
+			spasi diakhir baris dipertahankan.
+	pre-wrap	garis baru dipertahankan, spasi dan tab 
+			dipertahankan, text wrapping 'iya', dan 
+			spasi diakhir baris.
+	pre-line	garis baru dipertahankan, spasi dan tab 
+			diatur ulang/collapse, text wrapping 
+			'iya', dan spasi diakhir baris dihilangkan
+contoh :
+white-space: normal;
+
+14. word-spacing
+ - mengatur jarak spasi antar kata/text
+
+	VALUE                   DESKRIPSI
+        normal
+        em, px
+        angka
+
+contoh :
+word-spacing: 5px;

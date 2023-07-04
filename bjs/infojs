@@ -1,0 +1,28 @@
+			INFORMASI JAVASCRIPTS
+
+1. NAMA PACKAGE LINUX
+
+ - nodejs
+
+2. FORMAT FILE
+
+- namaFile.js
+
+3. FILE SCRIPTS
+
+- tidak ada pembuka script bahasa js
+- comments
+  //ini comments 1 baris
+  /*ini comments
+   lebih dari 1 baris
+  */
+- tidak membutuhkan method main
+- bisa ya/bisa tidak membuat object class
+- method harus dibuat diatas method main
+- tidak membutuhkan tanda ; pada coding
+
+- tidak membutuhkan methods main untuk menjalankan program
+
+4. EXECTION SCRIPTS
+
+- js formatFile

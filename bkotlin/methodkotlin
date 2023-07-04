@@ -1,0 +1,47 @@
+			   METHODS KOTLIN
+
+1. METHODS MAIN
+
+	//tanpa return
+	fun main(){
+
+	}
+
+	//dengan return
+	fun main(): tipedata {
+	   return nilaitipedata
+	}
+
+
+2. METHODS FUN
+
+	//tanpa parameter
+	fun variabel1(){
+
+	}
+
+	//dengan parameter
+	fun variabel1(variabel2: tipedata1, variabel3: tipedata2){
+
+	}
+
+	//panggil methods
+	variabel1() //tanpa parameter
+	variabel1(nilaitipedata1, nilaitipedata2) //dengan parameter
+
+3. METHOD RETURN
+
+
+	//tanpa parameter
+	fun variabel1(): tipedata {
+	    return nilaitipedata
+	}
+
+	//dengan parameter
+	fun variabel1(variabel2: tipedata1, variabel3: tipedata): tipedata {
+	    return nilaitipedata
+	}
+
+	//panggil
+	variabel1() //tanpa parameter
+	variabel2(nilaitipedata1, nilaitipedata2) //dengan parameter

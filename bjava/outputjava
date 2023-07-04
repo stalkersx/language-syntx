@@ -1,0 +1,14 @@
+			    OUTPUT JAVA
+
+
+1. OUTPUT TANPA NEWLINE
+
+	System.out.print(method/nilaitipedata);
+
+2. OUTPUT DENGAN NEWLINE
+
+	System.out.println(method/nilaitipedata);
+
+3. OUTPUT FORMAT
+
+	System.out.printf(method/nilaitipedata);

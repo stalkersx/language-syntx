@@ -1,0 +1,71 @@
+			TIPE DATA KOTLIN
+
+1. String
+
+	//imutable (sekali pakai)
+	val variabel = "nilaiString"
+	val variabel: String = "nilaiString"
+
+	//mutable (bisa dipakai berulang)
+	var variabel = "string"
+	var variabel: String = "nilaiString"
+
+	//panggil
+	variabel
+	"$variabel"
+
+2. INTEGER
+
+	//imutable (sekali pakai)
+        val variabel = angka
+        val variabel: Int = angka
+
+        //mutable (bisa dipakai berulang)
+        var variabel = angka
+        var variabel: Int = angka
+
+        //panggil
+        variabel
+        "$variabel"
+
+3. DOUBLE
+
+	//imutable (sekali pakai)
+        val variabel = angkaKoma
+        val variabel: Double = angkaKoma
+
+        //mutable (bisa dipakai berulang)
+        var variabel = angkaKoma
+        var variabel: Double = angkaKoma
+
+        //panggil
+        variabel
+        "$variabel"
+
+4. CHARATER
+
+	//imutable (sekali pakai)
+        val variabel = 'c'
+        val variabel: Char = 'c'
+
+        //mutable (bisa dipakai berulang)
+        var variabel = 'c'
+        var variabel: Char = 'c'
+
+        //panggil
+        variabel
+        "$variabel"
+
+5. BOOLEAN
+
+	//imutable (sekali pakai)
+        val variabel = true/false
+        val variabel: Boolean = true/false
+
+        //mutable (bisa dipakai berulang)
+        var variabel = true/false
+        var variabel: Boolean = true/false
+
+        //panggil
+        variabel
+        "$variabel"
