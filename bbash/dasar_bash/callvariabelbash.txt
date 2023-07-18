@@ -1,0 +1,45 @@
+			CALL VARIABEL
+
+1. CALL VARIABEL ARITMATIKA
+
+	$((operasi))
+
+2. CALL VARIABEL TIPEDATA
+
+	$variabel
+
+3. CALL VARIABEL GETTING CHAR
+
+	# mengambil char dengan menghitung index dari depan, awalan 0
+	${variabel:index:jumblahkarakter}
+
+	# mengambil char dengan menghitung index dr belakang, awalan -1
+	${variabel: -index:jumblahkarakter}
+	${variabel: -index}
+
+	# menghapus char dengan menghitung index dari depan, awalan 0
+	${variabel:index}
+
+	# menghapus char dengan menghitung index dari belakang, awalan -1
+	${variabel::-index}
+
+4. CALL VARIABEL DENGAN MENGUBAH CHAR
+
+	# menganti 1 nilai karakter
+	${variabel/charbefore/charafter}
+
+5. CALL VARIBEL COMMAND-SHELL
+
+	$(command)
+
+6. CALL VARIABEL ARRAY
+
+	# dengan index
+	${variabel[index]}
+
+	# jumblah item array
+	${#variabel[index]}
+
+	# index array
+	${!variabel[@]}
+

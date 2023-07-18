@@ -2,5 +2,14 @@
 
 1. ARITMATIKA DALAM VARIABEL
 
-	#variabel=$((operasi))
-	variabel=$(($variabel+$variabel))
+	# menggunakan let
+	let variabel=variabel1+variabel2
+
+	# menggunakan kurung ganda
+	variabel=$((variabel1+variabel2))
+
+	# menggunakan expr
+	expr variabel1+variabel2
+
+	# menggunakan expr dalam variabel
+	variabel=$(expr variabel1+variabel2)
