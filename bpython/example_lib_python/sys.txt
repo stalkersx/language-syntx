@@ -1,0 +1,9 @@
+# library sys pada perangkat
+
+# mendapatkan class dan method
+import sys
+
+# buat parameter pada file (run ./filename.py text text)
+param1 = sys.argv[1]
+param2 = sys.argv[2]
+print(param1, param2)
