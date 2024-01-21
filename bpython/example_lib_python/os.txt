@@ -3,13 +3,13 @@
 # mendapatkan class dan method
 import os
 
-# check path file
+# check path directory
 if os.path.isdir('dirtest') :
 	print("ada")
 else :
 	print("tidak ada")
 	
-# check path directory
+# check path file
 if os.path.isfile('filetest'):
 	print("ada")
 else :
