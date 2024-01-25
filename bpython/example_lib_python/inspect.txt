@@ -1,0 +1,9 @@
+# module inspect
+
+# masukan module ke file
+import os
+import inspect
+
+# temukan sebuah file dari sebuah module
+path = inspect.getfile(os)
+print(path)
