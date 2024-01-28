@@ -25,6 +25,10 @@ arrayfile = open("filetest", "r").readlines()
 print(arrayfile[0])
 arrayfile.close()
 
+# hapus space atau new line
+print(string.replace("\n","")
+print(string.replace(" ","")
+
 # menulis semua text ke file dan mengubah isi file
 textfile = "hai apa kabar"
 open("filetest", "w").write(textfile).close()

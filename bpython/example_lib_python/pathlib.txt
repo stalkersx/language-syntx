@@ -1,0 +1,7 @@
+# library path
+
+# import module
+from pathlib import Path
+
+# path home
+print(Path.home())
