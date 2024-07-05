@@ -1,0 +1,8 @@
+IMPORT BETWEN FILE
+
+# dalam 1 folder
+import=$(readlink -f $0)
+. ${import%/*}/file_tujuan
+
+# antar folder
+. /path/file_tujuan
