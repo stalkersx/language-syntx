@@ -1,0 +1,7 @@
+EXAMPLE CODE :
+
+# gunakan ; untuk buat code 1 line
+var1=5; var2="ayam"; var3="ditangkap"; echo "$var1 $var2 $var3"
+
+# output
+5 ayam ditangkap

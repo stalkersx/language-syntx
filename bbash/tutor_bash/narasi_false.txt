@@ -1,0 +1,16 @@
+# narasi dalam percabangan
+
+	# bernilai salah
+	# narasi didalam syntx kondisi
+	if [ ! -f ~/Downloads ];then
+	  echo "tidak ada"
+	else
+	  echo "ada"
+	fi
+	
+	# narasi diluar syntx kondisi
+	if ! [ -f ~/Downloads ];then
+	  echo "tidak ada"
+	else
+	  echo "ada"
+	fi

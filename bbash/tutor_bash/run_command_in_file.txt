@@ -1,0 +1,14 @@
+EXAMPLE CODE :
+
+# single syntax : command param param
+pwd
+ls -l
+find $HOME/Desktop
+
+# combo syntx and : command && command && command
+touch testfile && echo "file dibuat"
+
+# combo syntx pipe : command | command | command
+echo "linux is the best : by stalkersx" | cut -d ':' -f 2
+
+

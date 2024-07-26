@@ -1,0 +1,51 @@
+			    VARIABEL BASH
+
+1. VARIABEL LOCAL (hanya bisa didalam method)
+
+	#didalam method	
+	method(){
+	  variabellocal=nilaitipedata
+	}
+	method
+
+2. VARIABEL GLOBAL (bisa dipanggil dimanapun)
+
+	#diluar method
+	method(){
+
+	}
+	variabelglobal=nilaitipedata
+	method
+
+3. VARIABEL PARAMETER (pengirim nilai variabel global dan local)
+
+	#mengirim data variabel global ke local dalam method
+	method(){
+	  echo $1
+	}
+	variabelglobal=nilaitipedata
+	method $variabelglobal
+
+	#mengirim data variabel local ke global luar method
+	method(){
+	  variabellocal=nilaitipedata
+	}
+	method variabellocal
+	echo $variabellocal
+
+4. VARIABEL TIPEDATA (wadah menyimpan nilai berdasarkan 1 tipe)
+
+	variabel=nilaitipedata
+
+5. VARIABEL ARRAY (wadah menyimpan banyak nilai)
+
+	#mode 1
+	variabelArray=(item item)
+
+	#mode 2
+	declare -a variabelArray
+
+6. VARIABEL METHODS (wadah menyimpan sebuah script)
+
+	variabelMethods(){ }
+

@@ -4,5 +4,5 @@ IMPORT BETWEN FILE
 import=$(readlink -f $0)
 . ${import%/*}/file_tujuan
 
-# antar folder
+# beda folder
 . /path/file_tujuan
