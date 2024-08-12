@@ -1,0 +1,97 @@
+				PYTHON
+1. len()
+
+	# len ialah jumblah huruf dalam string
+	# syntx : len(variabel)
+	var = "hello dunia"
+	print(len(var))
+
+	# output
+	11
+
+2. upper()
+
+	# upper ialah ubah teks ke huruf kapital
+	# syntx : variabel.upper()
+	var = "diNo Meno"
+	print(var.upper())
+	
+	# output
+	DINO MENO
+	
+3. lower()
+
+	# lower ialah ubah teks ke huruf kecil
+	# syntx : variabel.lower()
+	var = "HD LiNux Best
+	print(var.lower())
+	
+	# output
+	hd linux best
+	
+4. replace()
+
+	# replace ialah menghapus atau mengubah char dalam variabel
+	# syntx : variabel.replace('char_ori', 'char_modif')
+	nama = "anton dirga"
+
+	# menghapus char
+	print(nama.replace('dir', ''))
+
+	# mengubah char
+	print(nama.replace('ga', 'ot')
+
+	# output
+	anton ga
+	anton dirot
+	
+5. return
+
+	# return ialah value bilangan bulat
+	##### EXAMPLE CODE 1 #######
+	tambah(){
+	  return $(($1+$2))
+	}
+
+	tambah 23 10
+	echo $?
+
+	# output
+	33
+	
+6. type()
+
+	# type ialah untuk mengetahui tipe data dalam variabel
+	# syntx : variabel.type(variabel)
+	var1 = "hello"
+	var2 = 1234
+	print(type(var1))
+	print(type(var2))
+
+	# output
+	<class 'str'>
+	<class 'int'>
+	
+7. startswith()
+
+	# startswith ialah memeriksa awal string
+	# syntx : variabel.startswith('text_string')
+	var = "indonesia negaraku"
+	print(var.startswith('dia')
+	print(var.startswith('indo'))
+	
+	# output
+	False
+	True
+	
+8. endswith()
+
+	# endswith ialah memeriksa akhir string
+	# syntx : variabel.endswith('text_string')
+	var = "nama kamu doni"
+	print(var.endswith('doni'))
+	print(var.endswith('ema'))
+	
+	# output
+	True
+	False

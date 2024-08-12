@@ -2,4 +2,11 @@
 
 1. OUTPUT PRINT
 
+	# syntx
 	print(nilaitipedata/variabel)
+	
+	# output space
+	print(var, var, var)
+	
+	# output no space
+	print(var + var + var)

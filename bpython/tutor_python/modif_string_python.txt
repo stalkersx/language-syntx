@@ -1,0 +1,23 @@
+#!/bin/python3
+
+# variabel
+string = "ryo mahendra"
+integer = 16732
+
+# input symbol string
+print("symbol : \"\\\"")
+
+# memotong string diambil
+# ambil dari depan dimulai dari 0
+print(string[2])
+print(string[0:5])
+print(string[:3])
+# ambil dari belakang dimulai dari -1
+print(string[-1])
+print(string[-3:])
+print(string[-6:-1])
+
+# memotong string hapus
+print(string[2:])
+print(string[:-4])
+print(string[1:-3])

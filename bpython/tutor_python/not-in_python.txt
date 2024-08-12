@@ -2,14 +2,18 @@
 
 1. IN
 
-	# in dalam string (hasil : True)
-	print("suka" in "aku suka kamu")
+	# in ialah nilai true dalam sebuah varibel
+	var = "aku suka kamu"
+	print("suka" in var)
 
+	# output
+	True
+	
 2. NOT IN
 
-	# not in dalam if
-	arr = ["hello" "dunia" "code"]
-	if "tono" not in arr:
-	  arr.append("tono")
-
-	print(arr)
+	# not in ialah nilai false dalam sebuah variabel
+	var = "indra doni arya"
+	print('doni' not in var)
+	
+	# output
+	False
