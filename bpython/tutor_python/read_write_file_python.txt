@@ -1,0 +1,28 @@
+# baca semua isi file
+text = open("filetest", "r").read()
+print(text)
+text.close()
+
+# baca isi file menjadi array (perbaris)
+arrayfile = open("filetest", "r").readlines()
+print(arrayfile[0])
+arrayfile.close()
+
+# hapus space atau new line
+print(string.replace("\n","")
+print(string.replace(" ","")
+
+# menulis semua text ke file dan mengubah isi file
+textfile = "hai apa kabar"
+open("filetest", "w").write(textfile).close()
+
+# menulis array perbaris ke file
+arraytext = ['apel', 'jeruk', 'mangga']
+open("filetest", "w").writelines(arraytext).close()
+
+# menulis dan membaca file tsnpa mengubah isi file sebelumnya
+tulistext = "apa kabar"
+readf = open("filetest", "r+")
+print(readf.read())
+readf.write(tulistext)
+readf.close()

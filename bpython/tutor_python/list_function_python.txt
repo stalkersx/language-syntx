@@ -95,3 +95,22 @@
 	# output
 	True
 	False
+	
+9. dir()
+
+	# dir ialah memeriksa fungsi pada module
+	syntx : dir(module)
+	import os
+	print(dir(os))
+	
+	# output
+	method fungsi os
+	
+10. help()
+
+	# help ialah bantuan dasar module
+	syntx : help(module)
+	import sys
+	print(help(sys))
+	
+	# output dasar fungsi module
