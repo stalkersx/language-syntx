@@ -1,5 +1,8 @@
 EXAMPLE CODE :
 
+# syntx dalam variabel : variabel=$(command param param)
+var=$(ls /home)
+
 # single syntax : command param param
 pwd
 ls -l

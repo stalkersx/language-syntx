@@ -1,6 +1,8 @@
 			TIPE DATA BASH
 
 1. STRING
+   beda string kutip 1 dan 2, string kutip 1 tidak dapat memanggil variabel
+kedalamnya, string kutip 2 bisa
 
 	#pembuatan
 	variabel="nilai string"

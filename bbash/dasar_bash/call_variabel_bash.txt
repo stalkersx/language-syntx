@@ -61,4 +61,7 @@
 	# return 0
 	$?
 	
+10. CALL VARIABEL DALAM STRING TANDA KUTIP 2
 
+	# string
+	var="${var}text"

@@ -1,0 +1,6 @@
+# pemisah pemanggilan variabel dan text
+a=1
+b="${a}d" # string tanda kutip 2
+c='${a}d' # string tanda kutip 1
+echo $b
+
