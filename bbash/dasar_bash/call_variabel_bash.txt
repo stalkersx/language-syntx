@@ -58,10 +58,15 @@
 	
 9. CALL VARIABEL RETURN
 
-	# return 0
+	# return 0 program berjalan tanpa error
 	$?
 	
 10. CALL VARIABEL DALAM STRING TANDA KUTIP 2
 
 	# string
 	var="${var}text"
+	
+11. CALL VARIABEL IDPROSES
+
+	# variabel idproses dari perintah terakhir berjalan dibackground
+	$!
