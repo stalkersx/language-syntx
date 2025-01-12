@@ -3,6 +3,9 @@
 # mendapatkan class dan method
 import os
 
+# save run commmand terminal to variabel
+variabel = os.popen(command).read()
+
 # check path directory
 if os.path.isdir('dirtest') :
 	print("ada")

@@ -2,6 +2,10 @@
 
 1. PERULANGAN FOR
 
+	#for from variabel, get output line
+	for variabel in variabel.splitlines():
+	   /method/output
+	   
 	#for array
 	for variabel in varlistarray:
 	   #method/output
@@ -16,6 +20,7 @@
 
 penjelasan :
 - for ialah keywork perulangan
+- variabel.splitlines() ialah menghasilkan output perline
 - range(1,10,1) ialah 1 awal nilai, 10 batas nilai, 1 jumblah perulangan
 
 2. WHILE
