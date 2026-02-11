@@ -70,3 +70,15 @@
 
 	# variabel idproses dari perintah terakhir berjalan dibackground
 	$!
+
+12. CALL VARIABEL DELETE CHAR FROM FROUND OR BACK TO A FOUND CHAR
+
+	# menghapus semua karakter dari awal hingga dijumpai char pertama kali, dari belakang
+	${var%char*}
+	
+	# menghapus semua karakter dari awal hingga di jumpai char terakhir kali, dari belakang
+	${var%%char*}
+	
+	# menghapus semua karakter dari awal hingga di jumpai char pertama kali, dari depan
+	${var##*char}
+	
