@@ -1,0 +1,54 @@
+1. FUNGSI MAIN
+  |__ fungsi yang pertama kali di panggil saat program dijalankan.
+
+	//pembuatan
+	int main(){ //isi fungsi }
+	int main(parameter, parameter){ //isi fungsi }
+	
+	// tidak perlu dipanggil
+	
+2. FUNGSI TIPEDATA
+  |__ fungsi return/mengambalikan nilai yang bisa dipakai lagi. return ialah untuk memberitahu system dimana variabel hasilakhir, 0 sukses, 1 error, dipakai sebagai penanda fungsi berjalan/tidak.
+
+	//pembuatan
+	namaTipeData variabel(){ //isi fungsi; return 0; }
+	namaTipedata variabel(parameter, parameter){ //isi fungsi; return 1; }
+	
+	//panggil
+	variabel();
+	variabel(parameter, parameter);
+	
+3. FUNGSI VOID
+  |__ fungsi yang tidak mengambalikan nilai atau tidak perlu return hanya untuk sekali pakai.
+
+	//pembuatan
+	void variabel(){ //isi fungsi }
+	void variabel(parameter, parameter){ //isi fungsi }
+	
+	//panggil
+	variabel(parameter, parameter);
+	
+4. FUNGSI SIDEOF
+   |__ fungsi membaca nilai byte pada jenis typedata tertentu.
+
+	//contoh
+	printf("char: %zu byte, sideof(char));
+	
+	//output
+	char: 1 byte
+	
+5. FUNGSI TYPEDEF STRUCT/STRUCT AJA
+   |__ membungkus banyak variabel tipedata menjadi 1 variabel.
+   
+	//pembuatan
+	struct variabel { char[20] nama, int umur, int tanggalLahir};
+	typedef struct { char[] nama, int umur, int tanggalLahir} variabel;
+	
+	//panggil
+	struct variabel newVariabel; //ini struct aja, selalu nulis struct
+	variabel newVariabel; //ini typedef struct
+	newVariabel.nama = "nilaistring";
+	newVariabel.umur = angkaUmur;
+	newVariabel.tanggalLahir = angkaTanggalLahir;
+	
+ 

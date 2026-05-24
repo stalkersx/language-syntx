@@ -16,10 +16,11 @@
 	//panggil
 	variabel
 
-3. DOUBLE
+3. DOUBLE/FLOAT
 
 	//pembuatan
 	double variabel = angkaKoma;
+	float variabel = angkaKomaF; //pakai double jika angka charakter lebih dari 15 digit
 
 	//panggil
 	variabel
@@ -27,7 +28,17 @@
 4. STRING
 
 	//pembuatan
+	char variabel[] = "nilaiString";
 	char variabel[jumblahHuruf] = "nilaiString";
 
+	//panggil
+	variabel
+
+5. LONG
+
+	//pembuatan
+	long variabel = angkatriliun;
+	long variabel = angkatriliunL; //pakai L jika charakter angka lebih dari 15 digit
+	
 	//panggil
 	variabel

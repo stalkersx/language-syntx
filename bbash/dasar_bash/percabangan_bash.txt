@@ -46,3 +46,13 @@ penjelasan :
 - esac ialah penutup block case
 - eksekusi dengan memilih 1 nilai yg bener
 
+3. PERCABANGAN CONDITION
+[ kondisi ] && true || false
+[[ kondisi ]] && true || false
+
+penjelasan :
+- [ kondisi ] ialah perbandingan perintah/variabel dengan operator
+- && ialah jika kondisi no error jalankan true
+- true ialah method/output, jika kondisi bernilai true
+- || ialah jika kondisi no error jalankan false
+- false ialah method/output, jika kondisi bernilai false
