@@ -1,0 +1,9 @@
+# off notif proccess background
+set +m
+
+# process
+echo "hello " &
+echo "world" &
+
+# menunggu proccess selesai
+wait

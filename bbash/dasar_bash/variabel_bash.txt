@@ -49,3 +49,17 @@
 
 	variabelMethods(){ }
 
+7. VARIABEL EVAL (penampung perintah/method lebih dari 1)
+
+	# create
+	method1(){
+		eval "$1"
+	}
+	
+	# panggil
+	method1 "clear; echo test; date"
+
+8. VARIABEL RANDOM (variabel bawaan isi angka acak)
+
+	# panggil
+	$RANDOM
